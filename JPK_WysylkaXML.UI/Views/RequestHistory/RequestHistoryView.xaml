@@ -1,0 +1,132 @@
+﻿<Window x:Class="JPK_WysylkaXML.UI.Views.RequestHistory.RequestsView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:ignore="http://www.galasoft.ch/ignore"
+        xmlns:requestHistory="clr-namespace:JPK_WysylkaXML.UI.ViewModel.RequestHistory"
+        xmlns:converters="clr-namespace:JPK_WysylkaXML.UI.Converters"
+        xmlns:components="clr-namespace:UnitSoftware.Common.Wpf.Implementation.Components;assembly=UnitSoftware.Common.Wpf.Implementation"
+        xmlns:Syncfusion="http://schemas.syncfusion.com/wpf"
+        xmlns:resx="clr-namespace:JPK_WysylkaXML.UI.Components.Resources;assembly=JPK_WysylkaXML.UI.Components"
+        xmlns:components1="clr-namespace:JPK_WysylkaXML.UI.Components;assembly=JPK_WysylkaXML.UI.Components"
+        mc:Ignorable="d ignore"
+        d:DataContext="{d:DesignInstance requestHistory:RequestHistoryViewModel}"
+        ShowInTaskbar="False"
+        Height="400" Width="900"
+        Title="{components1:TranslateXaml HistoryView_Title}"
+        WindowStartupLocation="CenterOwner">
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/JPK_WysylkaXML.UI.Components;component/Skins/MainSkin.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/JPK_WysylkaXML.UI.Components;component/Resources/Templates/ImageTemplates.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/JPK_WysylkaXML.UI.Components;component/Resources/Templates/ButtonTemplates.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+            <components:BindingProxy x:Key="Proxy" Data="{Binding}" />
+        </ResourceDictionary>        
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0">
+            <Syncfusion:SfBusyIndicator IsBusy="{Binding IsWaitDisplayed}" AnimationType="Fluent">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+
+                    <DockPanel Grid.Row="0" VerticalAlignment="Center" Margin="5,5,5,5">
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="5,5,5,5">
+                            <TextBlock Text="{components1:TranslateXaml HistoryView_FromDateFilter}" VerticalAlignment="Center" />
+                            <DatePicker SelectedDate="{Binding FilterViewModel.StartDate}" Margin="5,0,5,0" />
+                            <TextBlock Text="{components1:TranslateXaml HistoryView_ToDateFilter}" VerticalAlignment="Center" />
+                            <DatePicker SelectedDate="{Binding FilterViewModel.EndDate}" ToolTip="Data końcowa" Margin="5,0,5,0" />
+                        </StackPanel>
+                    </DockPanel>
+                    
+                    <Syncfusion:SfDataGrid Grid.Row="1" SelectionMode="Single" Focusable="False" SelectionUnit="Row" IsReadOnly="True" AutoGenerateColumns="False" ColumnSizer="AutoLastColumnFill"
+                                           NavigationMode="Row" ShowRowHeader="True" AllowGrouping="True" ShowGroupDropArea="True"
+                                           GridCopyOption="CopyData" GridCopyContent="SfDataGrid_OnGridCopyContent"
+                                           ItemsSource="{Binding RequestList}" SelectedItem="{Binding SelectedItem}" RowDropIndicatorMode="Arrow" >
+                        <Syncfusion:SfDataGrid.CellStyle>
+                            <Style TargetType="Syncfusion:GridCell">
+                                <Style.Triggers>
+                                    <DataTrigger Binding="{Binding LastStatus, Converter={converters:ErrorStatusConverter}}" Value="True">
+                                        <Setter Property="Background" Value="DarkRed" />
+                                        <Setter Property="Foreground" Value="White" />
+                                    </DataTrigger>
+
+                                    <MultiDataTrigger>
+                                        <MultiDataTrigger.Conditions>
+                                            <Condition Binding="{Binding Path=IsUpo}" Value="True" />
+                                            <Condition Binding="{Binding Path=Data.IsTestServer, Source={StaticResource Proxy}}" Value="True" />
+                                        </MultiDataTrigger.Conditions>
+                                        <Setter Property="Background" Value="CornflowerBlue" />
+                                    </MultiDataTrigger>
+                                    <MultiDataTrigger>
+                                        <MultiDataTrigger.Conditions>
+                                            <Condition Binding="{Binding Path=IsUpo}" Value="True" />
+                                            <Condition Binding="{Binding Path=Data.IsTestServer, Source={StaticResource Proxy}}" Value="False" />
+                                        </MultiDataTrigger.Conditions>
+                                        <Setter Property="Background" Value="Green" />
+                                    </MultiDataTrigger>
+
+                                </Style.Triggers>
+                            </Style>
+                        </Syncfusion:SfDataGrid.CellStyle>
+                        <Syncfusion:SfDataGrid.Columns>
+                            <Syncfusion:GridTextColumn Width="70" HeaderText="{components1:TranslateXaml HistoryView_ServerTypeHeader}" MappingName="ServerType" TextAlignment="Center" />
+                            <Syncfusion:GridTextColumn HeaderText="{components1:TranslateXaml HistoryView_RefNoHeader}" Width="240" MappingName="ReferenceNo" />
+                            <Syncfusion:GridTextColumn HeaderText="{components1:TranslateXaml HistoryView_SendDateHeader}" Width="110" MappingName="SendDate" AllowResizing="True" TextAlignment="Center" />
+                            <Syncfusion:GridCheckBoxColumn HeaderText="{components1:TranslateXaml HistoryView_UpoHeader}" Width="60" MappingName="IsUpo" AllowFiltering="True" />
+                            <Syncfusion:GridTextColumn HeaderText="{components1:TranslateXaml HistoryView_StatusHeader}" Width="70" MappingName="LastStatus" AllowFiltering="True" TextAlignment="Center" />
+                            <Syncfusion:GridTextColumn HeaderText="{components1:TranslateXaml HistoryView_DescriptionHeader}"  MappingName="LastStatusDescription" TextTrimming="CharacterEllipsis" >
+                                <Syncfusion:GridTextColumn.CellStyle>
+                                    <Style TargetType="Syncfusion:GridCell">
+                                        <Setter Property="ToolTip" Value="{Binding LastStatusDescription}" />
+                                        <Style.Triggers>
+                                            <DataTrigger Binding="{Binding LastStatus, Converter={converters:ErrorStatusConverter}}" Value="True">
+                                                <Setter Property="Background" Value="DarkRed" />
+                                                <Setter Property="Foreground" Value="White" />
+                                            </DataTrigger>
+
+                                            <MultiDataTrigger>
+                                                <MultiDataTrigger.Conditions>
+                                                    <Condition Binding="{Binding Path=IsUpo}" Value="True" />
+                                                    <Condition Binding="{Binding Path=Data.IsTestServer, Source={StaticResource Proxy}}" Value="True" />
+                                                </MultiDataTrigger.Conditions>
+                                                <Setter Property="Background" Value="CornflowerBlue" />
+                                            </MultiDataTrigger>
+                                            <MultiDataTrigger>
+                                                <MultiDataTrigger.Conditions>
+                                                    <Condition Binding="{Binding Path=IsUpo}" Value="True" />
+                                                    <Condition Binding="{Binding Path=Data.IsTestServer, Source={StaticResource Proxy}}" Value="False" />
+                                                </MultiDataTrigger.Conditions>
+                                                <Setter Property="Background" Value="Green" />
+                                            </MultiDataTrigger>
+                                        </Style.Triggers>
+                                    </Style>
+                                </Syncfusion:GridTextColumn.CellStyle>
+                            </Syncfusion:GridTextColumn>
+                        </Syncfusion:SfDataGrid.Columns>
+                    </Syncfusion:SfDataGrid>
+                </Grid>
+            </Syncfusion:SfBusyIndicator>
+        </Grid>
+
+        <StackPanel Margin="5,5,5,5" Orientation="Horizontal" HorizontalAlignment="Right" Grid.Row="2" >
+            <Button ContentTemplate="{StaticResource GenerateUpoTemplate}" Command="{Binding GenerateUpoCommand}" Margin="5,0,5,0" ToolTip="Wygeneruj Upo w postaci Pdf"/>
+            <Button ContentTemplate="{StaticResource DownloadUpoTemplate}" Command="{Binding DownloadUpoCommand}" Margin="5,0,5,0" ToolTip="Zapisz Upo w postaci XML" />
+            <Button ContentTemplate="{StaticResource RefreshButtonTemplate}" Command="{Binding RefreshAllCommand}" Margin="5,0,5,0" ToolTip="Odświerz statusy" />
+            <Button ContentTemplate="{StaticResource CloseButtonTemplate}" Command="{Binding CloseCommand}" Margin="5,0,5,0" ToolTip="Zamknij okno" />
+        </StackPanel>
+    </Grid>
+    <Window.InputBindings>
+        <KeyBinding Key="Escape" Command="{Binding CloseCommand}" />
+    </Window.InputBindings>
+</Window>

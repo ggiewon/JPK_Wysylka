@@ -1,0 +1,8 @@
+C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK.XmlTypes\bin\Release\netstandard2.0\JPK.XmlTypes.deps.json
+C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK.XmlTypes\bin\Release\netstandard2.0\JPK.XmlTypes.dll
+C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK.XmlTypes\bin\Release\netstandard2.0\JPK.XmlTypes.pdb
+C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK.XmlTypes\obj\Release\netstandard2.0\JPK.XmlTypes.csproj.AssemblyReference.cache
+C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK.XmlTypes\obj\Release\netstandard2.0\JPK.XmlTypes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK.XmlTypes\obj\Release\netstandard2.0\JPK.XmlTypes.csproj.CoreCompileInputs.cache
+C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK.XmlTypes\obj\Release\netstandard2.0\JPK.XmlTypes.dll
+C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK.XmlTypes\obj\Release\netstandard2.0\JPK.XmlTypes.pdb

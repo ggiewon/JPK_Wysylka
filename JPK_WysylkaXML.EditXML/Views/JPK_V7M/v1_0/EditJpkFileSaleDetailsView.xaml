@@ -1,0 +1,322 @@
+﻿<Window x:Class="JPK_WysylkaXML.EditXML.Views.JPK_V7M.v1_0.EditJpkFileSaleDetailsView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:components="clr-namespace:JPK_WysylkaXML.UI.Components;assembly=JPK_WysylkaXML.UI.Components"
+        xmlns:v101="clr-namespace:JPK_WysylkaXML.EditXML.ViewModels.JPK_V7M.v1_0"
+        mc:Ignorable="d"
+        d:DataContext="{d:DesignInstance v101:JpkV7MEditSaleDetailsViewModel}"
+        ShowInTaskbar="False"
+        
+        SizeToContent="WidthAndHeight"
+        Title="Edycja wiersza sprzedaży"
+        Icon="/AppIcon.ico"
+        WindowStartupLocation="CenterOwner">
+
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/JPK_WysylkaXML.UI.Components;component/Skins/MainSkin.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/JPK_WysylkaXML.UI.Components;component/Resources/Templates/ImageTemplates.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/JPK_WysylkaXML.UI.Components;component/Resources/Templates/ButtonTemplates.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/JPK_WysylkaXML.UI.Components;component/Resources/Styles/FormStyles.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/JPK_WysylkaXML.UI.Components;component/Resources/Styles/TextBoxStyles.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/JPK_WysylkaXML.UI.Components;component/Resources/Styles/SimpleScrollViewer.xaml" />
+                
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+        
+    </Window.Resources>
+    <StackPanel  Margin="5">
+        <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <StackPanel HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="5" Grid.Column="0">
+                <DockPanel Style="{StaticResource FormLineDockPanel}" >
+                    <TextBlock Text="Lp Sprzedaży" Style="{StaticResource TextBlockFormElement}" />
+                    <TextBox Text="{Binding LpSprzedazy, UpdateSourceTrigger=PropertyChanged, Mode=OneWay}"  IsReadOnly="True"  />
+                </DockPanel>
+                <DockPanel Style="{StaticResource FormLineDockPanel}">
+                    <TextBlock Text="NrKontrahenta" Style="{StaticResource TextBlockFormElement}" />
+                    <TextBox Text="{Binding NrKontrahenta, UpdateSourceTrigger=PropertyChanged}" />
+                </DockPanel>
+                <DockPanel Style="{StaticResource FormLineDockPanel}">
+                    <TextBlock Text="NazwaKontrahenta" Style="{StaticResource TextBlockFormElement}" />
+                    <TextBox Text="{Binding NazwaKontrahenta, UpdateSourceTrigger=PropertyChanged}" />
+                </DockPanel>
+                <DockPanel Style="{StaticResource FormLineDockPanel}">
+                    <TextBlock Text="KodKrajuNadaniaTIN" Style="{StaticResource TextBlockFormElement}" />
+                    <TextBox Text="{Binding KodKrajuNadaniaTIN, UpdateSourceTrigger=PropertyChanged}" />
+                </DockPanel>
+                <DockPanel Style="{StaticResource FormLineDockPanel}">
+                    <TextBlock Text="DowodSprzedazy" Style="{StaticResource TextBlockFormElement}" />
+                    <TextBox Text="{Binding DowodSprzedazy, UpdateSourceTrigger=PropertyChanged}" />
+                </DockPanel>
+                <DockPanel Style="{StaticResource FormLineDockPanel}">
+                    <TextBlock Text="DataWystawienia" Style="{StaticResource TextBlockFormElement}" />
+                    <DatePicker SelectedDate="{Binding DataWystawienia, UpdateSourceTrigger=PropertyChanged}" />
+                </DockPanel>
+                <DockPanel Style="{StaticResource FormLineDockPanel}">
+                    <TextBlock Text="DataSprzedazy" Style="{StaticResource TextBlockFormElement}" />
+                    <CheckBox Style="{StaticResource CheckBoxFormElement}" IsChecked="{Binding DataSprzedazySpecified}" Margin="0 0 5 0" />
+                    <DatePicker SelectedDate="{Binding DataSprzedazy, UpdateSourceTrigger=PropertyChanged}" />
+                </DockPanel>
+                <DockPanel Style="{StaticResource FormLineDockPanel}">
+                    <TextBlock Text="TypDokumentu" Style="{StaticResource TextBlockFormElement}" />
+                    <CheckBox Style="{StaticResource CheckBoxFormElement}" IsChecked="{Binding TypDokumentuSpecified}" Margin="0 0 5 0"/>
+                    <ComboBox ItemsSource="{Binding TypDokumentuList, UpdateSourceTrigger=PropertyChanged}" IsEditable="False" Text="{Binding TypDokumentu}" />
+                </DockPanel>
+                <DockPanel Style="{StaticResource FormLineDockPanel}">
+                    <TextBlock Text="GTU_01" Style="{StaticResource TextBlockFormElement}" />
+                    <CheckBox Style="{StaticResource CheckBoxFormElement}" IsChecked="{Binding GTU_01}" Margin="0 0 5 0"/>
+                </DockPanel>
+                <DockPanel Style="{StaticResource FormLineDockPanel}">
+                    <TextBlock Text="GTU_02" Style="{StaticResource TextBlockFormElement}" />
+                    <CheckBox Style="{StaticResource CheckBoxFormElement}" IsChecked="{Binding GTU_02}" Margin="0 0 5 0"/>
+                </DockPanel>
+                <DockPanel Style="{StaticResource FormLineDockPanel}">
+                    <TextBlock Text="GTU_03" Style="{StaticResource TextBlockFormElement}" />
+                    <CheckBox Style="{StaticResource CheckBoxFormElement}" IsChecked="{Binding GTU_03}" Margin="0 0 5 0"/>
+                </DockPanel>
+                <DockPanel Style="{StaticResource FormLineDockPanel}">
+                    <TextBlock Text="GTU_04" Style="{StaticResource TextBlockFormElement}" />
+                    <CheckBox Style="{StaticResource CheckBoxFormElement}" IsChecked="{Binding GTU_04}" Margin="0 0 5 0"/>
+                </DockPanel>
+                <DockPanel Style="{StaticResource FormLineDockPanel}">
+                    <TextBlock Text="GTU_05" Style="{StaticResource TextBlockFormElement}" />
+                    <CheckBox Style="{StaticResource CheckBoxFormElement}" IsChecked="{Binding GTU_05}" Margin="0 0 5 0"/>
+                </DockPanel>
+                <DockPanel Style="{StaticResource FormLineDockPanel}">
+                    <TextBlock Text="GTU_06" Style="{StaticResource TextBlockFormElement}" />
+                    <CheckBox Style="{StaticResource CheckBoxFormElement}" IsChecked="{Binding GTU_06}" Margin="0 0 5 0"/>
+                </DockPanel>
+                <DockPanel Style="{StaticResource FormLineDockPanel}">
+                    <TextBlock Text="GTU_07" Style="{StaticResource TextBlockFormElement}" />
+                    <CheckBox Style="{StaticResource CheckBoxFormElement}" IsChecked="{Binding GTU_07}" Margin="0 0 5 0"/>
+                </DockPanel>
+                <DockPanel Style="{StaticResource FormLineDockPanel}">
+                    <TextBlock Text="GTU_08" Style="{StaticResource TextBlockFormElement}" />
+                    <CheckBox Style="{StaticResource CheckBoxFormElement}" IsChecked="{Binding GTU_08}" Margin="0 0 5 0"/>
+                </DockPanel>
+                <DockPanel Style="{StaticResource FormLineDockPanel}">
+                    <TextBlock Text="GTU_09" Style="{StaticResource TextBlockFormElement}" />
+                    <CheckBox Style="{StaticResource CheckBoxFormElement}" IsChecked="{Binding GTU_09}" Margin="0 0 5 0"/>
+                </DockPanel>
+                <DockPanel Style="{StaticResource FormLineDockPanel}">
+                    <TextBlock Text="GTU_10" Style="{StaticResource TextBlockFormElement}" />
+                    <CheckBox Style="{StaticResource CheckBoxFormElement}" IsChecked="{Binding GTU_10}" Margin="0 0 5 0"/>
+                </DockPanel>
+                <DockPanel Style="{StaticResource FormLineDockPanel}">
+                    <TextBlock Text="GTU_11" Style="{StaticResource TextBlockFormElement}" />
+                    <CheckBox Style="{StaticResource CheckBoxFormElement}" IsChecked="{Binding GTU_11}" Margin="0 0 5 0"/>
+                </DockPanel>
+                <DockPanel Style="{StaticResource FormLineDockPanel}">
+                    <TextBlock Text="GTU_12" Style="{StaticResource TextBlockFormElement}" />
+                    <CheckBox Style="{StaticResource CheckBoxFormElement}" IsChecked="{Binding GTU_12}" Margin="0 0 5 0"/>
+                </DockPanel>
+                <DockPanel Style="{StaticResource FormLineDockPanel}">
+                    <TextBlock Text="GTU_13" Style="{StaticResource TextBlockFormElement}" />
+                    <CheckBox Style="{StaticResource CheckBoxFormElement}" IsChecked="{Binding GTU_13}" Margin="0 0 5 0"/>
+                </DockPanel>
+
+            </StackPanel>
+
+            <StackPanel HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="5" Grid.Column="1">
+
+                <DockPanel Style="{StaticResource FormLineDockPanel}">
+                    <TextBlock Text="SW" Style="{StaticResource TextBlockFormElement}" />
+                    <CheckBox Style="{StaticResource CheckBoxFormElement}" IsChecked="{Binding SW}" Margin="0 0 5 0"/>
+                </DockPanel>
+                <DockPanel Style="{StaticResource FormLineDockPanel}">
+                    <TextBlock Text="EE" Style="{StaticResource TextBlockFormElement}" />
+                    <CheckBox Style="{StaticResource CheckBoxFormElement}" IsChecked="{Binding EE}" Margin="0 0 5 0"/>
+                </DockPanel>
+                <DockPanel Style="{StaticResource FormLineDockPanel}">
+                    <TextBlock Text="TP" Style="{StaticResource TextBlockFormElement}" />
+                    <CheckBox Style="{StaticResource CheckBoxFormElement}" IsChecked="{Binding TP}" Margin="0 0 5 0"/>
+                </DockPanel>
+                <DockPanel Style="{StaticResource FormLineDockPanel}">
+                    <TextBlock Text="TT_WNT" Style="{StaticResource TextBlockFormElement}" />
+                    <CheckBox Style="{StaticResource CheckBoxFormElement}" IsChecked="{Binding TT_WNT}" Margin="0 0 5 0"/>
+                </DockPanel>
+                <DockPanel Style="{StaticResource FormLineDockPanel}">
+                    <TextBlock Text="TT_D" Style="{StaticResource TextBlockFormElement}" />
+                    <CheckBox Style="{StaticResource CheckBoxFormElement}" IsChecked="{Binding TT_D}" Margin="0 0 5 0"/>
+                </DockPanel>
+                <DockPanel Style="{StaticResource FormLineDockPanel}">
+                    <TextBlock Text="MR_T" Style="{StaticResource TextBlockFormElement}" />
+                    <CheckBox Style="{StaticResource CheckBoxFormElement}" IsChecked="{Binding MR_T}" Margin="0 0 5 0"/>
+                </DockPanel>
+                <DockPanel Style="{StaticResource FormLineDockPanel}">
+                    <TextBlock Text="MR_UZ" Style="{StaticResource TextBlockFormElement}" />
+                    <CheckBox Style="{StaticResource CheckBoxFormElement}" IsChecked="{Binding MR_UZ}" Margin="0 0 5 0"/>
+                </DockPanel>
+                <DockPanel Style="{StaticResource FormLineDockPanel}">
+                    <TextBlock Text="I_42" Style="{StaticResource TextBlockFormElement}" />
+                    <CheckBox Style="{StaticResource CheckBoxFormElement}" IsChecked="{Binding I_42}" Margin="0 0 5 0"/>
+                </DockPanel>
+                <DockPanel Style="{StaticResource FormLineDockPanel}">
+                    <TextBlock Text="I_63" Style="{StaticResource TextBlockFormElement}" />
+                    <CheckBox Style="{StaticResource CheckBoxFormElement}" IsChecked="{Binding I_63}" Margin="0 0 5 0"/>
+                </DockPanel>
+                <DockPanel Style="{StaticResource FormLineDockPanel}">
+                    <TextBlock Text="B_SPV" Style="{StaticResource TextBlockFormElement}" />
+                    <CheckBox Style="{StaticResource CheckBoxFormElement}" IsChecked="{Binding B_SPV}" Margin="0 0 5 0"/>
+                </DockPanel>
+                <DockPanel Style="{StaticResource FormLineDockPanel}">
+                    <TextBlock Text="B_SPV_DOSTAWA" Style="{StaticResource TextBlockFormElement}" />
+                    <CheckBox Style="{StaticResource CheckBoxFormElement}" IsChecked="{Binding B_SPV_DOSTAWA}" Margin="0 0 5 0"/>
+                </DockPanel>
+                <DockPanel Style="{StaticResource FormLineDockPanel}">
+                    <TextBlock Text="B_MPV_PROWIZJA" Style="{StaticResource TextBlockFormElement}" />
+                    <CheckBox Style="{StaticResource CheckBoxFormElement}" IsChecked="{Binding B_MPV_PROWIZJA}" Margin="0 0 5 0"/>
+                </DockPanel>
+                <DockPanel Style="{StaticResource FormLineDockPanel}">
+                    <TextBlock Text="MPP" Style="{StaticResource TextBlockFormElement}" />
+                    <CheckBox Style="{StaticResource CheckBoxFormElement}" IsChecked="{Binding MPP}" Margin="0 0 5 0"/>
+                </DockPanel>
+                <DockPanel Style="{StaticResource FormLineDockPanel}">
+                    <TextBlock Text="KorektaPodstawyOpodt" Style="{StaticResource TextBlockFormElement}" />
+                    <CheckBox Style="{StaticResource CheckBoxFormElement}" IsChecked="{Binding KorektaPodstawyOpodt}" Margin="0 0 5 0"/>
+                </DockPanel>
+            </StackPanel>
+
+            <StackPanel HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="5" Grid.Column="2">
+                <DockPanel Style="{StaticResource FormLineDockPanel}">
+                    <TextBlock Text="K_10" Style="{StaticResource ShortTextBlockFormElement}" />
+                    <components:NumericTextBox Value="{Binding Path=K_10, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Text="{Binding K_10, Mode=OneWay}" Width="100" TextAlignment="Right" Style="{StaticResource SimpleTextBox}" />
+                </DockPanel>
+                <DockPanel Style="{StaticResource FormLineDockPanel}">
+                    <TextBlock Text="K_11" Style="{StaticResource ShortTextBlockFormElement}" />
+                    <components:NumericTextBox Value="{Binding Path=K_11, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Text="{Binding K_11, Mode=OneWay}" Width="100" TextAlignment="Right" Style="{StaticResource SimpleTextBox}" />
+                </DockPanel>
+                <DockPanel Style="{StaticResource FormLineDockPanel}">
+                    <TextBlock Text="K_12" Style="{StaticResource ShortTextBlockFormElement}" />
+                    <components:NumericTextBox Value="{Binding Path=K_12, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Text="{Binding K_12, Mode=OneWay}" Width="100" TextAlignment="Right" Style="{StaticResource SimpleTextBox}" />
+                </DockPanel>
+                <DockPanel Style="{StaticResource FormLineDockPanel}">
+                    <TextBlock Text="K_13" Style="{StaticResource ShortTextBlockFormElement}" />
+                    <components:NumericTextBox Value="{Binding Path=K_13, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Text="{Binding K_13, Mode=OneWay}" Width="100" TextAlignment="Right" Style="{StaticResource SimpleTextBox}" />
+                </DockPanel>
+                <DockPanel Style="{StaticResource FormLineDockPanel}">
+                    <TextBlock Text="K_14" Style="{StaticResource ShortTextBlockFormElement}" />
+                    <components:NumericTextBox Value="{Binding Path=K_14, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Text="{Binding K_14, Mode=OneWay}" Width="100" TextAlignment="Right" Style="{StaticResource SimpleTextBox}" />
+                </DockPanel>
+                <DockPanel Style="{StaticResource FormLineDockPanel}">
+                    <TextBlock Text="K_15" Style="{StaticResource ShortTextBlockFormElement}" />
+                    <components:NumericTextBox Value="{Binding Path=K_15, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Text="{Binding K_15, Mode=OneWay}" Width="100" TextAlignment="Right" Style="{StaticResource SimpleTextBox}" />
+                </DockPanel>
+                <DockPanel Style="{StaticResource FormLineDockPanel}">
+                    <TextBlock Text="K_16" Style="{StaticResource ShortTextBlockFormElement}" />
+                    <components:NumericTextBox Value="{Binding Path=K_16, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Text="{Binding K_16, Mode=OneWay}" Width="100" TextAlignment="Right" Style="{StaticResource SimpleTextBox}" />
+                </DockPanel>
+                <DockPanel Style="{StaticResource FormLineDockPanel}">
+                    <TextBlock Text="K_17" Style="{StaticResource ShortTextBlockFormElement}" />
+                    <components:NumericTextBox Value="{Binding Path=K_17, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Text="{Binding K_17, Mode=OneWay}" Width="100" TextAlignment="Right" Style="{StaticResource SimpleTextBox}" />
+                </DockPanel>
+                <DockPanel Style="{StaticResource FormLineDockPanel}">
+                    <TextBlock Text="K_18" Style="{StaticResource ShortTextBlockFormElement}" />
+                    <components:NumericTextBox Value="{Binding Path=K_18, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Text="{Binding K_18, Mode=OneWay}" Width="100" TextAlignment="Right" Style="{StaticResource SimpleTextBox}" />
+                </DockPanel>
+                <DockPanel Style="{StaticResource FormLineDockPanel}">
+                    <TextBlock Text="K_19" Style="{StaticResource ShortTextBlockFormElement}" />
+                    <components:NumericTextBox Value="{Binding Path=K_19, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Text="{Binding K_19, Mode=OneWay}" Width="100" TextAlignment="Right" Style="{StaticResource SimpleTextBox}" ToolTip="Wysokość podstawy opodatkowania wynikająca z dostawy towarów oraz świadczenia usług na terytorium kraju, opodatkowanych stawką 22% albo 23%, z uwzględnieniem korekty dokonanej zgodnie z art. 89a ust. 1 i 4 ustawy" />
+                </DockPanel>
+                <DockPanel Style="{StaticResource FormLineDockPanel}">
+                    <TextBlock Text="K_20" Style="{StaticResource ShortTextBlockFormElement}" />
+                    <components:NumericTextBox Value="{Binding Path=K_20, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Text="{Binding K_20, Mode=OneWay}" Width="100" TextAlignment="Right" Style="{StaticResource SimpleTextBox}" />
+                </DockPanel>
+                <DockPanel Style="{StaticResource FormLineDockPanel}">
+                    <TextBlock Text="K_21" Style="{StaticResource ShortTextBlockFormElement}" />
+                    <components:NumericTextBox Value="{Binding Path=K_21, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Text="{Binding K_21, Mode=OneWay}" Width="100" TextAlignment="Right" Style="{StaticResource SimpleTextBox}" />
+                </DockPanel>
+                <DockPanel Style="{StaticResource FormLineDockPanel}">
+                    <TextBlock Text="K_22" Style="{StaticResource ShortTextBlockFormElement}" />
+                    <components:NumericTextBox Value="{Binding Path=K_22, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Text="{Binding K_22, Mode=OneWay}" Width="100" TextAlignment="Right" Style="{StaticResource SimpleTextBox}" />
+                </DockPanel>
+                <DockPanel Style="{StaticResource FormLineDockPanel}">
+                    <TextBlock Text="K_23" Style="{StaticResource ShortTextBlockFormElement}" />
+                    <components:NumericTextBox Value="{Binding Path=K_23, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Text="{Binding K_23, Mode=OneWay}" Width="100" TextAlignment="Right" Style="{StaticResource SimpleTextBox}" />
+                </DockPanel>
+                <DockPanel Style="{StaticResource FormLineDockPanel}">
+                    <TextBlock Text="K_24" Style="{StaticResource ShortTextBlockFormElement}" />
+                    <components:NumericTextBox Value="{Binding Path=K_24, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Text="{Binding K_24, Mode=OneWay}" Width="100" TextAlignment="Right" Style="{StaticResource SimpleTextBox}" />
+                </DockPanel>
+                <DockPanel Style="{StaticResource FormLineDockPanel}">
+                    <TextBlock Text="K_25" Style="{StaticResource ShortTextBlockFormElement}" />
+                    <components:NumericTextBox Value="{Binding Path=K_25, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Text="{Binding K_25, Mode=OneWay}" Width="100" TextAlignment="Right" Style="{StaticResource SimpleTextBox}" />
+                </DockPanel>
+                <DockPanel Style="{StaticResource FormLineDockPanel}">
+                    <TextBlock Text="K_26" Style="{StaticResource ShortTextBlockFormElement}" />
+                    <components:NumericTextBox Value="{Binding Path=K_26, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Text="{Binding K_26, Mode=OneWay}" Width="100" TextAlignment="Right" Style="{StaticResource SimpleTextBox}" />
+                </DockPanel>
+                <DockPanel Style="{StaticResource FormLineDockPanel}">
+                    <TextBlock Text="K_27" Style="{StaticResource ShortTextBlockFormElement}" />
+                    <components:NumericTextBox Value="{Binding Path=K_27, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Text="{Binding K_27, Mode=OneWay}" Width="100" TextAlignment="Right" Style="{StaticResource SimpleTextBox}" />
+                </DockPanel>
+                <DockPanel Style="{StaticResource FormLineDockPanel}">
+                    <TextBlock Text="K_28" Style="{StaticResource ShortTextBlockFormElement}" />
+                    <components:NumericTextBox Value="{Binding Path=K_28, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Text="{Binding K_28, Mode=OneWay}" Width="100" TextAlignment="Right" Style="{StaticResource SimpleTextBox}" />
+                </DockPanel>
+                <DockPanel Style="{StaticResource FormLineDockPanel}">
+                    <TextBlock Text="K_29" Style="{StaticResource ShortTextBlockFormElement}" />
+                    <components:NumericTextBox Value="{Binding Path=K_29, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Text="{Binding K_29, Mode=OneWay}" Width="100" TextAlignment="Right" Style="{StaticResource SimpleTextBox}" />
+                </DockPanel>
+                
+            </StackPanel>
+            
+            <StackPanel HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="5" Grid.Column="3">
+                <DockPanel Style="{StaticResource FormLineDockPanel}">
+                    <TextBlock Text="K_30" Style="{StaticResource TextBlockFormElement}" />
+                    <components:NumericTextBox Value="{Binding Path=K_30, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Text="{Binding K_30, Mode=OneWay}" Width="100" TextAlignment="Right" Style="{StaticResource SimpleTextBox}" />
+                </DockPanel>
+                <DockPanel Style="{StaticResource FormLineDockPanel}">
+                    <TextBlock Text="K_31" Style="{StaticResource TextBlockFormElement}" />
+                    <components:NumericTextBox Value="{Binding Path=K_31, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Text="{Binding K_31, Mode=OneWay}" Width="100" TextAlignment="Right" Style="{StaticResource SimpleTextBox}" />
+                </DockPanel>
+                <DockPanel Style="{StaticResource FormLineDockPanel}">
+                    <TextBlock Text="K_32" Style="{StaticResource TextBlockFormElement}" />
+                    <components:NumericTextBox Value="{Binding Path=K_32, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Text="{Binding K_32, Mode=OneWay}" Width="100" TextAlignment="Right" Style="{StaticResource SimpleTextBox}" />
+                </DockPanel>
+                <DockPanel Style="{StaticResource FormLineDockPanel}">
+                    <TextBlock Text="K_33" Style="{StaticResource TextBlockFormElement}" />
+                    <components:NumericTextBox Value="{Binding Path=K_33, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Text="{Binding K_33, Mode=OneWay}" Width="100" TextAlignment="Right" Style="{StaticResource SimpleTextBox}" />
+                </DockPanel>
+                <DockPanel Style="{StaticResource FormLineDockPanel}">
+                    <TextBlock Text="K_34" Style="{StaticResource TextBlockFormElement}" />
+                    <components:NumericTextBox Value="{Binding Path=K_34, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Text="{Binding K_34, Mode=OneWay}" Width="100" TextAlignment="Right" Style="{StaticResource SimpleTextBox}" />
+                </DockPanel>
+                <DockPanel Style="{StaticResource FormLineDockPanel}">
+                    <TextBlock Text="K_34" Style="{StaticResource TextBlockFormElement}" />
+                    <components:NumericTextBox Value="{Binding Path=K_34, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Text="{Binding K_34, Mode=OneWay}" Width="100" TextAlignment="Right" Style="{StaticResource SimpleTextBox}" />
+                </DockPanel>
+                <DockPanel Style="{StaticResource FormLineDockPanel}">
+                    <TextBlock Text="K_35" Style="{StaticResource TextBlockFormElement}" />
+                    <components:NumericTextBox Value="{Binding Path=K_35, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Text="{Binding K_35, Mode=OneWay}" Width="100" TextAlignment="Right" Style="{StaticResource SimpleTextBox}" />
+                </DockPanel>
+                <DockPanel Style="{StaticResource FormLineDockPanel}">
+                    <TextBlock Text="K_36" Style="{StaticResource TextBlockFormElement}" />
+                    <components:NumericTextBox Value="{Binding Path=K_36, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Text="{Binding K_36, Mode=OneWay}" Width="100" TextAlignment="Right" Style="{StaticResource SimpleTextBox}" />
+                </DockPanel>
+                <DockPanel Style="{StaticResource FormLineDockPanel}">
+                    <TextBlock Text="SprzedazVAT_Marza" Style="{StaticResource TextBlockFormElement}" />
+                    <components:NumericTextBox Value="{Binding Path=SprzedazVAT_Marza, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Text="{Binding SprzedazVAT_Marza, Mode=OneWay}" Width="100" TextAlignment="Right" Style="{StaticResource SimpleTextBox}" />
+                </DockPanel>
+            </StackPanel>
+        </Grid>
+        <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Right">
+            <Button ContentTemplate="{StaticResource SaveButtonTemplate}" Command="{Binding SaveCommand}" Margin="5,0,0,0"/>
+            <Button ContentTemplate="{StaticResource CancelButtonTemplate}" Command="{Binding CancelCommand}" Margin="5,0,5,0"/>
+        </StackPanel>
+    </StackPanel>
+
+    <Window.InputBindings>
+        <KeyBinding Key="Escape" Command="{Binding CancelCommand}" />
+    </Window.InputBindings>
+</Window>

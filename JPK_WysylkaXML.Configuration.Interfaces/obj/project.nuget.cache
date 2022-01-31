@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "LlGlNlWDb1yUqvttZk7Rd20CVM6QffwwPKnt+XXZ1/aNTMiehWc9QybFkrMwwAV1fwaUUKxyzrmvoFmVzZj6Hg==",
+  "success": true,
+  "projectFilePath": "C:\\Projects\\CSharp\\UnitSoftware\\JPK_WysylkaXML\\JPK_WysylkaXML.Configuration.Interfaces\\JPK_WysylkaXML.Configuration.Interfaces.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ggiewon\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\ggiewon\\.nuget\\packages\\nlog\\4.7.12\\nlog.4.7.12.nupkg.sha512",
+    "C:\\Users\\ggiewon\\.nuget\\packages\\system.data.datasetextensions\\4.5.0\\system.data.datasetextensions.4.5.0.nupkg.sha512",
+    "C:\\Users\\ggiewon\\.nuget\\packages\\unitsoftware.common.interfaces\\1.0.0\\unitsoftware.common.interfaces.1.0.0.nupkg.sha512",
+    "C:\\Users\\ggiewon\\.nuget\\packages\\unitsoftware.helpers.implementation\\1.0.0\\unitsoftware.helpers.implementation.1.0.0.nupkg.sha512",
+    "C:\\Users\\ggiewon\\.nuget\\packages\\unitsoftware.xmltypes\\1.0.0\\unitsoftware.xmltypes.1.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

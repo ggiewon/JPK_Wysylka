@@ -1,0 +1,115 @@
+﻿<Window x:Class="JPK_WysylkaXML.UI.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:extensions="clr-namespace:UnitSoftware.Common.Wpf.Implementation.Extensions;assembly=UnitSoftware.Common.Wpf.Implementation"
+        xmlns:viewModel="clr-namespace:JPK_WysylkaXML.UI.ViewModel"
+        xmlns:interfaces="clr-namespace:JPK.Interfaces;assembly=JPK.Interfaces"
+        xmlns:resx="clr-namespace:JPK_WysylkaXML.UI.Components.Resources;assembly=JPK_WysylkaXML.UI.Components"
+        xmlns:components="clr-namespace:JPK_WysylkaXML.UI.Components;assembly=JPK_WysylkaXML.UI.Components"
+        mc:Ignorable="d"
+        Height="300"
+        Width="677"
+        Title="JPK Wysyłka XML"
+        
+        WindowStartupLocation="CenterScreen"
+        d:DataContext="{d:DesignInstance viewModel:MainViewModel}">
+    
+    <Window.Resources>        
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/JPK_WysylkaXML.UI.Components;component/Skins/MainSkin.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/JPK_WysylkaXML.UI.Components;component/Resources/Templates/ImageTemplates.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/JPK_WysylkaXML.UI.Components;component/Resources/Templates/ButtonTemplates.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+        
+    </Window.Resources>
+    
+    <Grid x:Name="LayoutRoot">
+       
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Menu Grid.Row="0" DockPanel.Dock="Top">
+            <MenuItem Header="{components:TranslateXaml MainView_FileMenuItem}">
+                <MenuItem Header="{components:TranslateXaml MainView_FileExitMenuItem}" Command="{Binding ExitCommand}" />
+            </MenuItem>
+
+
+            <MenuItem Header="{components:TranslateXaml MainView_ServerMenuItem}">
+                <MenuItem Header="{components:TranslateXaml MainView_ServerTestMenuItem}" Command="{Binding SelectServerCommand}" CommandParameter="{x:Static interfaces:ServerType.Test}" IsChecked="{Binding IsTestServerChecked, Mode=OneWay}"  />
+                <MenuItem Header="{components:TranslateXaml MainView_ServerProductionMenuItem}" Command="{Binding SelectServerCommand}" CommandParameter="{x:Static interfaces:ServerType.Production}"  IsChecked="{Binding IsProductionServerChecked, Mode=OneWay}"/>
+            </MenuItem>
+
+            <MenuItem Header="{components:TranslateXaml MainView_SettingsMenuItem}">
+                <MenuItem Header="{components:TranslateXaml MainView_SettingsConfigurationMenuItem}" Command="{Binding OpenConfigurationCommand}" />
+                <MenuItem Header="{components:TranslateXaml MainView_ResetEditSettingsMenuItem}" Command="{Binding ClearUserDataCommand}" />
+            </MenuItem>
+
+            <MenuItem Header="{components:TranslateXaml MainView_HistoryMenuItem}" Command="{Binding OpenHistoryCommand}" />
+
+            <MenuItem Header="{components:TranslateXaml MainView_VersionMenuItem}" Command="{Binding ShowVersionCommand}" />
+        </Menu>
+        <DockPanel Grid.Row="1" Margin="5,5,5,5">
+            <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+
+                <TextBlock Grid.Column="0" Text="{components:TranslateXaml MainView_InputFileLabel}" DockPanel.Dock="Left" VerticalAlignment="Center" Margin="10,0,10,0" />
+                <TextBox Grid.Column="1" Text="{Binding OpenFileViewModel.FilePath, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Width="Auto" />
+
+                <Button Grid.Column="2" ContentTemplate="{StaticResource SelectFilePathButtonTemplate}" Command="{Binding OpenFileViewModel.OpenFileDialogCommand}" HorizontalAlignment="Right" Margin="5,0,0,0" />
+            </Grid>
+        </DockPanel>
+        
+        <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Center" Margin="5,5,5,5">
+            <Button ContentTemplate="{StaticResource ValidationButtonTemplate}" Command="{Binding ValidateCommand}" Margin="5,0,5,0" />
+            <Button ContentTemplate="{StaticResource SendButtonTemplate}" Command="{Binding SendCommand}" CommandParameter="{Binding OpenFileViewModel.FilePath}" Margin="5,0,5,0" />
+            <Button ContentTemplate="{StaticResource SendNovalidationButtonTemplate}" Command="{Binding SendWithoutValidationCommand}" CommandParameter="{Binding OpenFileViewModel.FilePath}" Margin="5,0,5,0" />
+            <Button ContentTemplate="{StaticResource EditButtonTemplate}" Command="{Binding EditCommand}" Margin="5,0,5,0" />
+        </StackPanel>
+
+        <DockPanel Grid.Row="3" VerticalAlignment="Stretch" Margin="5,5,5,5">
+            <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+
+                <TextBlock Text="{components:TranslateXaml MainView_RefNoLabel}" HorizontalAlignment="Left" Grid.Column="0" DockPanel.Dock="Left" Margin="10,0,10,0" VerticalAlignment="Center" />                
+                <TextBox Grid.Column="1" Text="{Binding ReferenceNo, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Width="Auto" ToolTip="Tu wpisz nr referencyjny do sprawdzenia statusu wysyłki" />
+                <Button Grid.Column="2" ContentTemplate="{StaticResource CheckStatusButtonTemplate}" Command="{Binding CheckStatusCommand}" CommandParameter="{Binding ReferenceNo}" HorizontalAlignment="Right" Margin="10,0,0,0" />
+            </Grid>                        
+        </DockPanel>
+
+        <DockPanel Grid.Row="4" VerticalAlignment="Stretch" LastChildFill="True" Margin="5,5,5,5">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+                <DockPanel Grid.Column="0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                    <TextBlock Text="Log:" Margin="10,0,5,0" />
+                    <ScrollViewer VerticalAlignment="Stretch" HorizontalAlignment="Stretch" extensions:ScrollViewerExtensions.AlwaysScrollToEnd="True" >
+                        <TextBox VerticalAlignment="Stretch" HorizontalAlignment="Stretch" AcceptsReturn="True" TextWrapping="Wrap" Text="{Binding LogViewModel.LogMessages, Mode=OneWay}" />
+                    </ScrollViewer>
+                </DockPanel>
+                <StackPanel Grid.Column="1" Orientation="Vertical" VerticalAlignment="Top" Margin="5,0,0,0">
+                    <Button ContentTemplate="{StaticResource ClearLogButtonTemplate}" Command="{Binding LogViewModel.ClearCommand}"  Margin="0,5,0,5"/>
+                    <Button ContentTemplate="{StaticResource SaveLogToFileButtonTemplate}" Command="{Binding LogViewModel.SaveToFileCommand}"  Margin="0,5,0,5"/>
+
+                </StackPanel>
+            </Grid>
+        </DockPanel>
+    </Grid>
+</Window>

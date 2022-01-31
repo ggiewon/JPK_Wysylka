@@ -1,0 +1,598 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "JPK_WysylkaXML.EditXML/1.0.0": {
+        "dependencies": {
+          "JPK.Interfaces": "1.0.0",
+          "JPK_WysylkaXML.UI.Components": "1.0.0",
+          "Microsoft.CSharp": "4.7.0",
+          "Microsoft.Xaml.Behaviors.Wpf": "1.1.37",
+          "NLog": "4.7.12",
+          "System.Data.DataSetExtensions": "4.5.0",
+          "UnitSoftware.Common.Implementation": "1.0.1",
+          "UnitSoftware.Common.Interfaces": "1.0.0",
+          "UnitSoftware.Common.Wpf.Implementation": "1.0.2",
+          "UnitSoftware.Common.Wpf.Interfaces": "1.0.0"
+        },
+        "runtime": {
+          "JPK_WysylkaXML.EditXML.dll": {}
+        }
+      },
+      "Microsoft.CSharp/4.7.0": {},
+      "Microsoft.NETCore.Platforms/5.0.0": {},
+      "Microsoft.Win32.SystemEvents/5.0.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "5.0.0"
+        }
+      },
+      "Microsoft.Xaml.Behaviors.Wpf/1.1.37": {
+        "runtime": {
+          "lib/net5.0-windows7.0/Microsoft.Xaml.Behaviors.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.37.31167"
+          }
+        }
+      },
+      "NETStandard.Library/2.0.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "5.0.0"
+        }
+      },
+      "NLog/4.7.12": {
+        "runtime": {
+          "lib/netstandard2.0/NLog.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.7.12.301"
+          }
+        }
+      },
+      "RestSharp/106.13.0": {
+        "runtime": {
+          "lib/netstandard2.0/RestSharp.dll": {
+            "assemblyVersion": "106.13.0.0",
+            "fileVersion": "106.13.0.0"
+          }
+        }
+      },
+      "Syncfusion.Compression.Net.Core/19.3.0.47": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.Compression.Portable.dll": {
+            "assemblyVersion": "19.3200.0.47",
+            "fileVersion": "19.3200.0.47"
+          }
+        }
+      },
+      "Syncfusion.Data.WPF/19.3.0.48": {
+        "runtime": {
+          "lib/net5.0-windows7.0/Syncfusion.Data.WPF.dll": {
+            "assemblyVersion": "19.3500.0.48",
+            "fileVersion": "19.3500.0.48"
+          }
+        }
+      },
+      "Syncfusion.Licensing/19.3.0.48": {
+        "runtime": {
+          "lib/net5.0/Syncfusion.Licensing.dll": {
+            "assemblyVersion": "19.3.0.48",
+            "fileVersion": "19.3.0.48"
+          }
+        }
+      },
+      "Syncfusion.Pdf.Net.Core/19.3.0.47": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.0",
+          "Syncfusion.Compression.Net.Core": "19.3.0.47",
+          "Syncfusion.Licensing": "19.3.0.48",
+          "System.Text.Encoding.CodePages": "4.4.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.Pdf.Portable.dll": {
+            "assemblyVersion": "19.3200.0.47",
+            "fileVersion": "19.3200.0.47"
+          }
+        }
+      },
+      "Syncfusion.SfGrid.WPF/19.3.0.48": {
+        "dependencies": {
+          "Syncfusion.Data.WPF": "19.3.0.48",
+          "Syncfusion.Licensing": "19.3.0.48",
+          "Syncfusion.Shared.WPF": "19.3.0.48"
+        },
+        "runtime": {
+          "lib/net5.0-windows7.0/Syncfusion.SfGrid.WPF.dll": {
+            "assemblyVersion": "19.3500.0.48",
+            "fileVersion": "19.3500.0.48"
+          }
+        }
+      },
+      "Syncfusion.Shared.WPF/19.3.0.48": {
+        "dependencies": {
+          "Syncfusion.Licensing": "19.3.0.48"
+        },
+        "runtime": {
+          "lib/net5.0-windows7.0/Syncfusion.Shared.WPF.dll": {
+            "assemblyVersion": "19.3500.0.48",
+            "fileVersion": "19.3500.0.48"
+          }
+        }
+      },
+      "System.Data.DataSetExtensions/4.5.0": {},
+      "System.Drawing.Common/5.0.2": {
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "5.0.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/System.Drawing.Common.dll": {
+            "assemblyVersion": "5.0.0.2",
+            "fileVersion": "5.0.421.11614"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll": {
+            "rid": "unix",
+            "assetType": "runtime",
+            "assemblyVersion": "5.0.0.2",
+            "fileVersion": "5.0.421.11614"
+          },
+          "runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "5.0.0.2",
+            "fileVersion": "5.0.421.11614"
+          }
+        }
+      },
+      "System.Formats.Asn1/5.0.0": {},
+      "System.Security.AccessControl/5.0.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "5.0.0",
+          "System.Security.Principal.Windows": "5.0.0"
+        }
+      },
+      "System.Security.Cryptography.Cng/5.0.0": {
+        "dependencies": {
+          "System.Formats.Asn1": "5.0.0"
+        }
+      },
+      "System.Security.Cryptography.Pkcs/5.0.0": {
+        "dependencies": {
+          "System.Formats.Asn1": "5.0.0",
+          "System.Security.Cryptography.Cng": "5.0.0"
+        }
+      },
+      "System.Security.Cryptography.Xml/5.0.0": {
+        "dependencies": {
+          "System.Security.Cryptography.Pkcs": "5.0.0",
+          "System.Security.Permissions": "5.0.0"
+        }
+      },
+      "System.Security.Permissions/5.0.0": {
+        "dependencies": {
+          "System.Security.AccessControl": "5.0.0",
+          "System.Windows.Extensions": "5.0.0"
+        }
+      },
+      "System.Security.Principal.Windows/5.0.0": {},
+      "System.Text.Encoding.CodePages/4.4.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "5.0.0"
+        }
+      },
+      "System.Windows.Extensions/5.0.0": {
+        "dependencies": {
+          "System.Drawing.Common": "5.0.2"
+        }
+      },
+      "UnitSoftware.Common.Implementation/1.0.1": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0",
+          "NLog": "4.7.12",
+          "Syncfusion.Licensing": "19.3.0.48",
+          "Syncfusion.Pdf.Net.Core": "19.3.0.47",
+          "System.Data.DataSetExtensions": "4.5.0",
+          "System.Drawing.Common": "5.0.2",
+          "UnitSoftware.Common.Interfaces": "1.0.0",
+          "UnitSoftware.Helpers.Implementation": "1.0.0",
+          "UnitSoftware.XmlTypes": "1.0.0"
+        },
+        "runtime": {
+          "lib/net5.0-windows7.0/UnitSoftware.Common.Implementation.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "UnitSoftware.Common.Interfaces/1.0.0": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0",
+          "NLog": "4.7.12",
+          "System.Data.DataSetExtensions": "4.5.0",
+          "UnitSoftware.Helpers.Implementation": "1.0.0",
+          "UnitSoftware.XmlTypes": "1.0.0"
+        },
+        "runtime": {
+          "lib/net5.0-windows7.0/UnitSoftware.Common.Interfaces.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "UnitSoftware.Common.Wpf.Implementation/1.0.2": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0",
+          "System.Data.DataSetExtensions": "4.5.0",
+          "System.Security.Cryptography.Xml": "5.0.0",
+          "UnitSoftware.Common.Implementation": "1.0.1",
+          "UnitSoftware.Common.Wpf.Interfaces": "1.0.0"
+        },
+        "runtime": {
+          "lib/net5.0-windows7.0/UnitSoftware.Common.Wpf.Implementation.dll": {
+            "assemblyVersion": "1.0.2.0",
+            "fileVersion": "1.0.2.0"
+          }
+        }
+      },
+      "UnitSoftware.Common.Wpf.Interfaces/1.0.0": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0",
+          "NLog": "4.7.12",
+          "System.Data.DataSetExtensions": "4.5.0",
+          "System.Drawing.Common": "5.0.2",
+          "UnitSoftware.Common.Interfaces": "1.0.0"
+        },
+        "runtime": {
+          "lib/net5.0-windows7.0/UnitSoftware.Common.Wpf.Interfaces.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "UnitSoftware.Helpers.Implementation/1.0.0": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0",
+          "NLog": "4.7.12",
+          "System.Data.DataSetExtensions": "4.5.0"
+        },
+        "runtime": {
+          "lib/net5.0-windows7.0/UnitSoftware.Helpers.Implementation.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "UnitSoftware.Helpers.Interfaces/1.0.0": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0",
+          "NLog": "4.7.12",
+          "System.Data.DataSetExtensions": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/UnitSoftware.Helpers.Interfaces.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "UnitSoftware.XmlTypes/1.0.0": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0",
+          "System.Data.DataSetExtensions": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/UnitSoftware.XmlTypes.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "JPK.Interfaces/1.0.0": {
+        "dependencies": {
+          "JPK.XmlTypes": "1.0.0",
+          "JPK_WysylkaXML.License": "1.0.0",
+          "Microsoft.CSharp": "4.7.0",
+          "NLog": "4.7.12",
+          "RestSharp": "106.13.0",
+          "System.Data.DataSetExtensions": "4.5.0",
+          "UnitSoftware.Common.Interfaces": "1.0.0"
+        },
+        "runtime": {
+          "JPK.Interfaces.dll": {}
+        }
+      },
+      "JPK.XmlTypes/1.0.0": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0",
+          "System.Data.DataSetExtensions": "4.5.0"
+        },
+        "runtime": {
+          "JPK.XmlTypes.dll": {}
+        }
+      },
+      "JPK_WysylkaXML.License/1.0.0": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0",
+          "System.Data.DataSetExtensions": "4.5.0",
+          "UnitSoftware.Common.Implementation": "1.0.1",
+          "UnitSoftware.Common.Interfaces": "1.0.0",
+          "UnitSoftware.Helpers.Implementation": "1.0.0",
+          "UnitSoftware.Helpers.Interfaces": "1.0.0"
+        },
+        "runtime": {
+          "JPK_WysylkaXML.License.dll": {}
+        }
+      },
+      "JPK_WysylkaXML.UI.Components/1.0.0": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0",
+          "Syncfusion.Data.WPF": "19.3.0.48",
+          "Syncfusion.SfGrid.WPF": "19.3.0.48",
+          "System.Data.DataSetExtensions": "4.5.0",
+          "UnitSoftware.Common.Interfaces": "1.0.0"
+        },
+        "runtime": {
+          "JPK_WysylkaXML.UI.Components.dll": {}
+        },
+        "resources": {
+          "en/JPK_WysylkaXML.UI.Components.resources.dll": {
+            "locale": "en"
+          },
+          "pl/JPK_WysylkaXML.UI.Components.resources.dll": {
+            "locale": "pl"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "JPK_WysylkaXML.EditXML/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.CSharp/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
+      "path": "microsoft.csharp/4.7.0",
+      "hashPath": "microsoft.csharp.4.7.0.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VyPlqzH2wavqquTcYpkIIAQ6WdenuKoFN0BdYBbCWsclXacSOHNQn66Gt4z5NBqEYW0FAPm5rlvki9ZiCij5xQ==",
+      "path": "microsoft.netcore.platforms/5.0.0",
+      "hashPath": "microsoft.netcore.platforms.5.0.0.nupkg.sha512"
+    },
+    "Microsoft.Win32.SystemEvents/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Bh6blKG8VAKvXiLe2L+sEsn62nc1Ij34MrNxepD2OCrS5cpCwQa9MeLyhVQPQ/R4Wlzwuy6wMK8hLb11QPDRsQ==",
+      "path": "microsoft.win32.systemevents/5.0.0",
+      "hashPath": "microsoft.win32.systemevents.5.0.0.nupkg.sha512"
+    },
+    "Microsoft.Xaml.Behaviors.Wpf/1.1.37": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TxH7g5I/4UzOHfs0GqD1W4evdl7DIHOQCr/KWc4G4BkgtsAhaHHXAW5JbKrkB7cqClN0JYOX6j9/4v4emCjFIA==",
+      "path": "microsoft.xaml.behaviors.wpf/1.1.37",
+      "hashPath": "microsoft.xaml.behaviors.wpf.1.1.37.nupkg.sha512"
+    },
+    "NETStandard.Library/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7jnbRU+L08FXKMxqUflxEXtVymWvNOrS8yHgu9s6EM8Anr6T/wIX4nZ08j/u3Asz+tCufp3YVwFSEvFTPYmBPA==",
+      "path": "netstandard.library/2.0.0",
+      "hashPath": "netstandard.library.2.0.0.nupkg.sha512"
+    },
+    "NLog/4.7.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cFe+YQVxghBt4hoB8IH+XVW/vyS6rWJPfWmm0rmgS/iaI3lzzFsGRzjw3VhByovLugw7Zp3kY7nVUWADCu6n2g==",
+      "path": "nlog/4.7.12",
+      "hashPath": "nlog.4.7.12.nupkg.sha512"
+    },
+    "RestSharp/106.13.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vwUdmmtC5vtePeNfBWnFcixBF2KjUeVv3ss4ZFzCIkOf7NB7W/9qX8JNZD9DOrz2yGk4AJW8k9znwgPZhnoiNg==",
+      "path": "restsharp/106.13.0",
+      "hashPath": "restsharp.106.13.0.nupkg.sha512"
+    },
+    "Syncfusion.Compression.Net.Core/19.3.0.47": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8CmgjIBJDfjJ1aFkTd7fivDWoKcdgQCoPvLuHzRXz2ZN1y+4B9b2D06lu6bxODVeYUdFTzL5NnLLklM1cMWX8Q==",
+      "path": "syncfusion.compression.net.core/19.3.0.47",
+      "hashPath": "syncfusion.compression.net.core.19.3.0.47.nupkg.sha512"
+    },
+    "Syncfusion.Data.WPF/19.3.0.48": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZbpgHpK8lwsvo/UtHjnRqR65vhOsuiwMhCpSxX4IAXyXe/QRlGs7SA9CRHmXSeOpwAOax10ODN0Dw66KuA1vfw==",
+      "path": "syncfusion.data.wpf/19.3.0.48",
+      "hashPath": "syncfusion.data.wpf.19.3.0.48.nupkg.sha512"
+    },
+    "Syncfusion.Licensing/19.3.0.48": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SwXgwDO7Fv7MWD8ILjXryTdTGhRAT0+uBCZ5LekGTlfQj9wrivEyZhghEegV0f+8cnlpj7uAQcMRijqBYZqR3g==",
+      "path": "syncfusion.licensing/19.3.0.48",
+      "hashPath": "syncfusion.licensing.19.3.0.48.nupkg.sha512"
+    },
+    "Syncfusion.Pdf.Net.Core/19.3.0.47": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qVVSWXE3qMyZgfcSOtIUkmE7dRrjFwhIOsXegSnslYHsxPACbX3ha2R5VUG47sPG8638Ul+Oq+VK2efgrp3qDg==",
+      "path": "syncfusion.pdf.net.core/19.3.0.47",
+      "hashPath": "syncfusion.pdf.net.core.19.3.0.47.nupkg.sha512"
+    },
+    "Syncfusion.SfGrid.WPF/19.3.0.48": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sF8qPJGdrdjFloTB07WQyALSxo5XOrn1Hy39kSQSXkS/122taIfIdL984DcA/QRmduCy5QddR9hKgXip4K0LWA==",
+      "path": "syncfusion.sfgrid.wpf/19.3.0.48",
+      "hashPath": "syncfusion.sfgrid.wpf.19.3.0.48.nupkg.sha512"
+    },
+    "Syncfusion.Shared.WPF/19.3.0.48": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cmZ/MLbwEHLyqCw6M8pSoLM9CfEBP82oX5zomOhtw/+v1MP/Jlxrf1hGf07bSNAFRi4onOt0RrmmYIdOYUnvoA==",
+      "path": "syncfusion.shared.wpf/19.3.0.48",
+      "hashPath": "syncfusion.shared.wpf.19.3.0.48.nupkg.sha512"
+    },
+    "System.Data.DataSetExtensions/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-221clPs1445HkTBZPL+K9sDBdJRB8UN8rgjO3ztB0CQ26z//fmJXtlsr6whGatscsKGBrhJl5bwJuKSA8mwFOw==",
+      "path": "system.data.datasetextensions/4.5.0",
+      "hashPath": "system.data.datasetextensions.4.5.0.nupkg.sha512"
+    },
+    "System.Drawing.Common/5.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rvr/M1WPf24ljpvvrVd74+NdjRUJu1bBkspkZcnzSZnmAUQWSvanlQ0k/hVHk+cHufZbZfu7vOh/vYc0q5Uu/A==",
+      "path": "system.drawing.common/5.0.2",
+      "hashPath": "system.drawing.common.5.0.2.nupkg.sha512"
+    },
+    "System.Formats.Asn1/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MTvUIktmemNB+El0Fgw9egyqT9AYSIk6DTJeoDSpc3GIHxHCMo8COqkWT1mptX5tZ1SlQ6HJZ0OsSvMth1c12w==",
+      "path": "system.formats.asn1/5.0.0",
+      "hashPath": "system.formats.asn1.5.0.0.nupkg.sha512"
+    },
+    "System.Security.AccessControl/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dagJ1mHZO3Ani8GH0PHpPEe/oYO+rVdbQjvjJkBRNQkX4t0r1iaeGn8+/ybkSLEan3/slM0t59SVdHzuHf2jmw==",
+      "path": "system.security.accesscontrol/5.0.0",
+      "hashPath": "system.security.accesscontrol.5.0.0.nupkg.sha512"
+    },
+    "System.Security.Cryptography.Cng/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jIMXsKn94T9JY7PvPq/tMfqa6GAaHpElRDpmG+SuL+D3+sTw2M8VhnibKnN8Tq+4JqbPJ/f+BwtLeDMEnzAvRg==",
+      "path": "system.security.cryptography.cng/5.0.0",
+      "hashPath": "system.security.cryptography.cng.5.0.0.nupkg.sha512"
+    },
+    "System.Security.Cryptography.Pkcs/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9TPLGjBCGKmNvG8pjwPeuYy0SMVmGZRwlTZvyPHDbYv/DRkoeumJdfumaaDNQzVGMEmbWtg07zUpSW9q70IlDQ==",
+      "path": "system.security.cryptography.pkcs/5.0.0",
+      "hashPath": "system.security.cryptography.pkcs.5.0.0.nupkg.sha512"
+    },
+    "System.Security.Cryptography.Xml/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MYmkHtCW+paFmPGFDktnLdOeH3zUrNchbZNki87E1ejNSMm9enSRbJokmvFrsWUrDE4bRE1lVeAle01+t6SGhA==",
+      "path": "system.security.cryptography.xml/5.0.0",
+      "hashPath": "system.security.cryptography.xml.5.0.0.nupkg.sha512"
+    },
+    "System.Security.Permissions/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uE8juAhEkp7KDBCdjDIE3H9R1HJuEHqeqX8nLX9gmYKWwsqk3T5qZlPx8qle5DPKimC/Fy3AFTdV7HamgCh9qQ==",
+      "path": "system.security.permissions/5.0.0",
+      "hashPath": "system.security.permissions.5.0.0.nupkg.sha512"
+    },
+    "System.Security.Principal.Windows/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-t0MGLukB5WAVU9bO3MGzvlGnyJPgUlcwerXn1kzBRjwLKixT96XV0Uza41W49gVd8zEMFu9vQEFlv0IOrytICA==",
+      "path": "system.security.principal.windows/5.0.0",
+      "hashPath": "system.security.principal.windows.5.0.0.nupkg.sha512"
+    },
+    "System.Text.Encoding.CodePages/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6JX7ZdaceBiLKLkYt8zJcp4xTJd1uYyXXEkPw6mnlUIjh1gZPIVKPtRXPmY5kLf6DwZmf5YLwR3QUrRonl7l0A==",
+      "path": "system.text.encoding.codepages/4.4.0",
+      "hashPath": "system.text.encoding.codepages.4.4.0.nupkg.sha512"
+    },
+    "System.Windows.Extensions/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-c1ho9WU9ZxMZawML+ssPKZfdnrg/OjR3pe0m9v8230z3acqphwvPJqzAkH54xRYm5ntZHGG1EPP3sux9H3qSPg==",
+      "path": "system.windows.extensions/5.0.0",
+      "hashPath": "system.windows.extensions.5.0.0.nupkg.sha512"
+    },
+    "UnitSoftware.Common.Implementation/1.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-agy6PUnsOFsRMVJmxAyInEGYdzUFVTDgRqST44BhkaWY514bOLeOq+GaiLWpwD7Mnr5qEjHJkRsFSND9QrW7uw==",
+      "path": "unitsoftware.common.implementation/1.0.1",
+      "hashPath": "unitsoftware.common.implementation.1.0.1.nupkg.sha512"
+    },
+    "UnitSoftware.Common.Interfaces/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kSQWhg3aH+Zh5tRfqzwbahUpwMJT19WQICFfWdKA3YIwl3Mn36QfrEehMDUJ/+2w2mm31Kec6S8IuuX+tXUeFA==",
+      "path": "unitsoftware.common.interfaces/1.0.0",
+      "hashPath": "unitsoftware.common.interfaces.1.0.0.nupkg.sha512"
+    },
+    "UnitSoftware.Common.Wpf.Implementation/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LFKyAXcZl9eXK21bpoU+Rdq+exH/ElwSfOuil9LmpwLq42LKPWwYwPDVX6Vg9kDoP+0rLknPxm4YBEkYayfOjg==",
+      "path": "unitsoftware.common.wpf.implementation/1.0.2",
+      "hashPath": "unitsoftware.common.wpf.implementation.1.0.2.nupkg.sha512"
+    },
+    "UnitSoftware.Common.Wpf.Interfaces/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-L4a1s0wyuNiczq+7TPBZiS7oTgkSMPFMvdrP1p8Lfbo9o5yLMJQz5q287lhLW88QipHEpLy2kugogy0qjkSwFQ==",
+      "path": "unitsoftware.common.wpf.interfaces/1.0.0",
+      "hashPath": "unitsoftware.common.wpf.interfaces.1.0.0.nupkg.sha512"
+    },
+    "UnitSoftware.Helpers.Implementation/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xKSTIx0W4wtD8wjRwG1gzKHockfoReaFHI6LWVd1HIoLNbXstaO+kRxeX3f4QbGVoKrVfy3wrfHI/tVZSp3BfQ==",
+      "path": "unitsoftware.helpers.implementation/1.0.0",
+      "hashPath": "unitsoftware.helpers.implementation.1.0.0.nupkg.sha512"
+    },
+    "UnitSoftware.Helpers.Interfaces/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EuI54os42EbsB9yBRoRWzgruROBKidf0lz4IC3CfXmsVl/bYVaximmrve4+opT/ttRuDkPBM5OfnZssX0N2kBQ==",
+      "path": "unitsoftware.helpers.interfaces/1.0.0",
+      "hashPath": "unitsoftware.helpers.interfaces.1.0.0.nupkg.sha512"
+    },
+    "UnitSoftware.XmlTypes/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mtMzcWIjvo23hBz03yBG9lwVU8n9mSYI3HEI7PIP5AiiIVnwewNkE1OPkyN95HdK4vapNW5tPJF0Kgirt1F9ww==",
+      "path": "unitsoftware.xmltypes/1.0.0",
+      "hashPath": "unitsoftware.xmltypes.1.0.0.nupkg.sha512"
+    },
+    "JPK.Interfaces/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "JPK.XmlTypes/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "JPK_WysylkaXML.License/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "JPK_WysylkaXML.UI.Components/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

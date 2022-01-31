@@ -1,0 +1,254 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Projects\\CSharp\\UnitSoftware\\JPK_WysylkaXML\\JPK.Interfaces\\JPK.Interfaces.csproj": {}
+  },
+  "projects": {
+    "C:\\Projects\\CSharp\\UnitSoftware\\JPK_WysylkaXML\\JPK.Interfaces\\JPK.Interfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\CSharp\\UnitSoftware\\JPK_WysylkaXML\\JPK.Interfaces\\JPK.Interfaces.csproj",
+        "projectName": "JPK.Interfaces",
+        "projectPath": "C:\\Projects\\CSharp\\UnitSoftware\\JPK_WysylkaXML\\JPK.Interfaces\\JPK.Interfaces.csproj",
+        "packagesPath": "C:\\Users\\ggiewon\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\CSharp\\UnitSoftware\\JPK_WysylkaXML\\JPK.Interfaces\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Syncfusion\\Essential Studio\\WPF\\19.3.0.43\\ToolboxNuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ggiewon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Syncfusion Toolbox for WPF.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0-windows7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Projects\\CSharp\\__offlinePackages": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.github.mmm.com/HIS-EMEA/index.json": {}
+        },
+        "frameworks": {
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows7.0",
+            "projectReferences": {
+              "C:\\Projects\\CSharp\\UnitSoftware\\JPK_WysylkaXML\\JPK.XmlTypes\\JPK.XmlTypes.csproj": {
+                "projectPath": "C:\\Projects\\CSharp\\UnitSoftware\\JPK_WysylkaXML\\JPK.XmlTypes\\JPK.XmlTypes.csproj"
+              },
+              "C:\\Projects\\CSharp\\UnitSoftware\\JPK_WysylkaXML\\JPK_WysylkaXML.License.Implementation\\JPK_WysylkaXML.License.csproj": {
+                "projectPath": "C:\\Projects\\CSharp\\UnitSoftware\\JPK_WysylkaXML\\JPK_WysylkaXML.License.Implementation\\JPK_WysylkaXML.License.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows7.0",
+          "dependencies": {
+            "Microsoft.CSharp": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[4.7.12, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[106.13.0, )"
+            },
+            "System.Data.DataSetExtensions": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "UnitSoftware.Common.Interfaces": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projects\\CSharp\\UnitSoftware\\JPK_WysylkaXML\\JPK.XmlTypes\\JPK.XmlTypes.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\CSharp\\UnitSoftware\\JPK_WysylkaXML\\JPK.XmlTypes\\JPK.XmlTypes.csproj",
+        "projectName": "JPK.XmlTypes",
+        "projectPath": "C:\\Projects\\CSharp\\UnitSoftware\\JPK_WysylkaXML\\JPK.XmlTypes\\JPK.XmlTypes.csproj",
+        "packagesPath": "C:\\Users\\ggiewon\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\CSharp\\UnitSoftware\\JPK_WysylkaXML\\JPK.XmlTypes\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Syncfusion\\Essential Studio\\WPF\\19.3.0.43\\ToolboxNuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ggiewon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Syncfusion Toolbox for WPF.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Projects\\CSharp\\__offlinePackages": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.github.mmm.com/HIS-EMEA/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Microsoft.CSharp": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "System.Data.DataSetExtensions": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projects\\CSharp\\UnitSoftware\\JPK_WysylkaXML\\JPK_WysylkaXML.License.Implementation\\JPK_WysylkaXML.License.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\CSharp\\UnitSoftware\\JPK_WysylkaXML\\JPK_WysylkaXML.License.Implementation\\JPK_WysylkaXML.License.csproj",
+        "projectName": "JPK_WysylkaXML.License",
+        "projectPath": "C:\\Projects\\CSharp\\UnitSoftware\\JPK_WysylkaXML\\JPK_WysylkaXML.License.Implementation\\JPK_WysylkaXML.License.csproj",
+        "packagesPath": "C:\\Users\\ggiewon\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\CSharp\\UnitSoftware\\JPK_WysylkaXML\\JPK_WysylkaXML.License.Implementation\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Syncfusion\\Essential Studio\\WPF\\19.3.0.43\\ToolboxNuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ggiewon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Syncfusion Toolbox for WPF.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0-windows7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Projects\\CSharp\\__offlinePackages": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.github.mmm.com/HIS-EMEA/index.json": {}
+        },
+        "frameworks": {
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows7.0",
+          "dependencies": {
+            "Microsoft.CSharp": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "System.Data.DataSetExtensions": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "UnitSoftware.Common.Implementation": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "UnitSoftware.Common.Interfaces": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "UnitSoftware.Helpers.Implementation": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "UnitSoftware.Helpers.Interfaces": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

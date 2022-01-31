@@ -1,0 +1,339 @@
+﻿<Window x:Class="JPK_WysylkaXML.EditXML.Views.JPK_V7M.v1_1.EditJpkFileView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+        xmlns:command="http://www.galasoft.ch/mvvmlight"
+        xmlns:c1="http://schemas.componentone.com/winfx/2006/xaml"
+        xmlns:components1="clr-namespace:JPK_WysylkaXML.UI.Components;assembly=JPK_WysylkaXML.UI.Components"
+        xmlns:v111="clr-namespace:JPK_WysylkaXML.EditXML.ViewModels.JPK_V7M.v1_1"
+        xmlns:components="clr-namespace:UnitSoftware.Common.Wpf.Implementation.Components;assembly=UnitSoftware.Common.Wpf.Implementation"
+        mc:Ignorable="d"
+        d:DataContext="{d:DesignInstance v111:JpkV7MEditViewModel}"
+        ShowInTaskbar="False"
+        Height="650" Width="900"
+        Title="Edycja pliku JPK"
+        WindowStartupLocation="CenterOwner">
+
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/JPK_WysylkaXML.UI.Components;component/Skins/MainSkin.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/JPK_WysylkaXML.UI.Components;component/Resources/Templates/ImageTemplates.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/JPK_WysylkaXML.UI.Components;component/Resources/Templates/ButtonTemplates.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/JPK_WysylkaXML.UI.Components;component/Resources/Styles/FormStyles.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/JPK_WysylkaXML.UI.Components;component/Resources/Styles/TextBoxStyles.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/JPK_WysylkaXML.UI.Components;component/Resources/Styles/ToolBar.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/JPK_WysylkaXML.UI.Components;component/Resources/Styles/SimpleScrollViewer.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+
+            <components:BindingProxy x:Key="Proxy" Data="{Binding}" />
+        </ResourceDictionary>
+
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <TabControl Grid.Row="0">
+            <TabItem Header="Deklaracje">
+                <StackPanel  Margin="5">
+                    <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch" >
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+
+                        <StackPanel HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="5" Grid.Column="0">
+
+                            <DockPanel Style="{StaticResource FormLineDockPanel}">
+                                <TextBlock Text="P_10" Style="{StaticResource TextBlockFormElement}" />
+                                <components1:NumericTextBox Value="{Binding Path= Deklaracje.P_10, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Text="{Binding Deklaracje.P_10, Mode=OneWay}" TextAlignment="Right" Style="{StaticResource SimpleTextBox}" />
+                            </DockPanel>
+                            <DockPanel Style="{StaticResource FormLineDockPanel}">
+                                <TextBlock Text="P_11" Style="{StaticResource TextBlockFormElement}" />
+                                <components1:NumericTextBox Value="{Binding Path= Deklaracje.P_11, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Text="{Binding Deklaracje.P_11, Mode=OneWay}" TextAlignment="Right" Style="{StaticResource SimpleTextBox}" />
+                            </DockPanel>
+                            <DockPanel Style="{StaticResource FormLineDockPanel}">
+                                <TextBlock Text="P_12" Style="{StaticResource TextBlockFormElement}" />
+                                <components1:NumericTextBox Value="{Binding Path= Deklaracje.P_12, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Text="{Binding Deklaracje.P_12, Mode=OneWay}" TextAlignment="Right" Style="{StaticResource SimpleTextBox}" />
+                            </DockPanel>
+                            <DockPanel Style="{StaticResource FormLineDockPanel}">
+                                <TextBlock Text="P_13" Style="{StaticResource TextBlockFormElement}" />
+                                <components1:NumericTextBox Value="{Binding Path= Deklaracje.P_13, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Text="{Binding Deklaracje.P_13, Mode=OneWay}" TextAlignment="Right" Style="{StaticResource SimpleTextBox}" />
+                            </DockPanel>
+                            <DockPanel Style="{StaticResource FormLineDockPanel}">
+                                <TextBlock Text="P_14" Style="{StaticResource TextBlockFormElement}" />
+                                <components1:NumericTextBox Value="{Binding Path= Deklaracje.P_14, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Text="{Binding Deklaracje.P_14, Mode=OneWay}" TextAlignment="Right" Style="{StaticResource SimpleTextBox}" />
+                            </DockPanel>
+                            <DockPanel Style="{StaticResource FormLineDockPanel}">
+                                <TextBlock Text="P_15" Style="{StaticResource TextBlockFormElement}" />
+                                <components1:NumericTextBox Value="{Binding Path= Deklaracje.P_15, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Text="{Binding Deklaracje.P_15, Mode=OneWay}" TextAlignment="Right" Style="{StaticResource SimpleTextBox}" />
+                            </DockPanel>
+                            <DockPanel Style="{StaticResource FormLineDockPanel}">
+                                <TextBlock Text="P_16" Style="{StaticResource TextBlockFormElement}" />
+                                <components1:NumericTextBox Value="{Binding Path= Deklaracje.P_16, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Text="{Binding Deklaracje.P_16, Mode=OneWay}" TextAlignment="Right" Style="{StaticResource SimpleTextBox}" />
+                            </DockPanel>
+                            <DockPanel Style="{StaticResource FormLineDockPanel}">
+                                <TextBlock Text="P_17" Style="{StaticResource TextBlockFormElement}" />
+                                <components1:NumericTextBox Value="{Binding Path= Deklaracje.P_17, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Text="{Binding Deklaracje.P_17, Mode=OneWay}" TextAlignment="Right" Style="{StaticResource SimpleTextBox}" />
+                            </DockPanel>
+                            <DockPanel Style="{StaticResource FormLineDockPanel}">
+                                <TextBlock Text="P_18" Style="{StaticResource TextBlockFormElement}" />
+                                <components1:NumericTextBox Value="{Binding Path= Deklaracje.P_18, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Text="{Binding Deklaracje.P_18, Mode=OneWay}" TextAlignment="Right" Style="{StaticResource SimpleTextBox}" />
+                            </DockPanel>
+                            <DockPanel Style="{StaticResource FormLineDockPanel}">
+                                <TextBlock Text="P_19" Style="{StaticResource TextBlockFormElement}" />
+                                <components1:NumericTextBox Value="{Binding Path= Deklaracje.P_19, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Text="{Binding Deklaracje.P_19, Mode=OneWay}" TextAlignment="Right" Style="{StaticResource SimpleTextBox}" />
+                            </DockPanel>
+                            <DockPanel Style="{StaticResource FormLineDockPanel}">
+                                <TextBlock Text="P_20" Style="{StaticResource TextBlockFormElement}" />
+                                <components1:NumericTextBox Value="{Binding Path= Deklaracje.P_20, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Text="{Binding Deklaracje.P_20, Mode=OneWay}" TextAlignment="Right" Style="{StaticResource SimpleTextBox}" />
+                            </DockPanel>
+                            <DockPanel Style="{StaticResource FormLineDockPanel}">
+                                <TextBlock Text="P_21" Style="{StaticResource TextBlockFormElement}" />
+                                <components1:NumericTextBox Value="{Binding Path= Deklaracje.P_21, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Text="{Binding Deklaracje.P_21, Mode=OneWay}" TextAlignment="Right" Style="{StaticResource SimpleTextBox}" />
+                            </DockPanel>
+                            <DockPanel Style="{StaticResource FormLineDockPanel}">
+                                <TextBlock Text="P_22" Style="{StaticResource TextBlockFormElement}" />
+                                <components1:NumericTextBox Value="{Binding Path= Deklaracje.P_22, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Text="{Binding Deklaracje.P_22, Mode=OneWay}" TextAlignment="Right" Style="{StaticResource SimpleTextBox}" />
+                            </DockPanel>
+                            <DockPanel Style="{StaticResource FormLineDockPanel}">
+                                <TextBlock Text="P_23" Style="{StaticResource TextBlockFormElement}" />
+                                <components1:NumericTextBox Value="{Binding Path= Deklaracje.P_23, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Text="{Binding Deklaracje.P_23, Mode=OneWay}" TextAlignment="Right" Style="{StaticResource SimpleTextBox}" />
+                            </DockPanel>
+                            <DockPanel Style="{StaticResource FormLineDockPanel}">
+                                <TextBlock Text="P_24" Style="{StaticResource TextBlockFormElement}" />
+                                <components1:NumericTextBox Value="{Binding Path= Deklaracje.P_24, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Text="{Binding Deklaracje.P_24, Mode=OneWay}" TextAlignment="Right" Style="{StaticResource SimpleTextBox}" />
+                            </DockPanel>
+                            <DockPanel Style="{StaticResource FormLineDockPanel}">
+                                <TextBlock Text="P_25" Style="{StaticResource TextBlockFormElement}" />
+                                <components1:NumericTextBox Value="{Binding Path= Deklaracje.P_25, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Text="{Binding Deklaracje.P_25, Mode=OneWay}" TextAlignment="Right" Style="{StaticResource SimpleTextBox}" />
+                            </DockPanel>
+                            <DockPanel Style="{StaticResource FormLineDockPanel}">
+                                <TextBlock Text="P_26" Style="{StaticResource TextBlockFormElement}" />
+                                <components1:NumericTextBox Value="{Binding Path= Deklaracje.P_26, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Text="{Binding Deklaracje.P_26, Mode=OneWay}" TextAlignment="Right" Style="{StaticResource SimpleTextBox}" />
+                            </DockPanel>
+                            <DockPanel Style="{StaticResource FormLineDockPanel}">
+                                <TextBlock Text="P_27" Style="{StaticResource TextBlockFormElement}" />
+                                <components1:NumericTextBox Value="{Binding Path= Deklaracje.P_27, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Text="{Binding Deklaracje.P_27, Mode=OneWay}" TextAlignment="Right" Style="{StaticResource SimpleTextBox}" />
+                            </DockPanel>
+                            <DockPanel Style="{StaticResource FormLineDockPanel}">
+                                <TextBlock Text="P_28" Style="{StaticResource TextBlockFormElement}" />
+                                <components1:NumericTextBox Value="{Binding Path= Deklaracje.P_28, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Text="{Binding Deklaracje.P_28, Mode=OneWay}" TextAlignment="Right" Style="{StaticResource SimpleTextBox}" />
+                            </DockPanel>
+                            <DockPanel Style="{StaticResource FormLineDockPanel}">
+                                <TextBlock Text="P_29" Style="{StaticResource TextBlockFormElement}" />
+                                <components1:NumericTextBox Value="{Binding Path= Deklaracje.P_29, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Text="{Binding Deklaracje.P_29, Mode=OneWay}" TextAlignment="Right" Style="{StaticResource SimpleTextBox}" />
+                            </DockPanel>
+
+                        </StackPanel>
+
+                        <StackPanel HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="5" Grid.Column="1">
+
+                            <DockPanel Style="{StaticResource FormLineDockPanel}">
+                                <TextBlock Text="P_30" Style="{StaticResource TextBlockFormElement}" />
+                                <components1:NumericTextBox Value="{Binding Path= Deklaracje.P_30, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Text="{Binding Deklaracje.P_30, Mode=OneWay}" TextAlignment="Right" Style="{StaticResource SimpleTextBox}" />
+                            </DockPanel>
+                            <DockPanel Style="{StaticResource FormLineDockPanel}">
+                                <TextBlock Text="P_31" Style="{StaticResource TextBlockFormElement}" />
+                                <components1:NumericTextBox Value="{Binding Path= Deklaracje.P_31, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Text="{Binding Deklaracje.P_31, Mode=OneWay}" TextAlignment="Right" Style="{StaticResource SimpleTextBox}" />
+                            </DockPanel>
+                            <DockPanel Style="{StaticResource FormLineDockPanel}">
+                                <TextBlock Text="P_32" Style="{StaticResource TextBlockFormElement}" />
+                                <components1:NumericTextBox Value="{Binding Path= Deklaracje.P_32, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Text="{Binding Deklaracje.P_32, Mode=OneWay}" TextAlignment="Right" Style="{StaticResource SimpleTextBox}" />
+                            </DockPanel>
+                            <DockPanel Style="{StaticResource FormLineDockPanel}">
+                                <TextBlock Text="P_33" Style="{StaticResource TextBlockFormElement}" />
+                                <components1:NumericTextBox Value="{Binding Path= Deklaracje.P_33, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Text="{Binding Deklaracje.P_33, Mode=OneWay}" TextAlignment="Right" Style="{StaticResource SimpleTextBox}" />
+                            </DockPanel>
+                            <DockPanel Style="{StaticResource FormLineDockPanel}">
+                                <TextBlock Text="P_34" Style="{StaticResource TextBlockFormElement}" />
+                                <components1:NumericTextBox Value="{Binding Path= Deklaracje.P_34, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Text="{Binding Deklaracje.P_34, Mode=OneWay}" TextAlignment="Right" Style="{StaticResource SimpleTextBox}" />
+                            </DockPanel>
+                            <DockPanel Style="{StaticResource FormLineDockPanel}">
+                                <TextBlock Text="P_35" Style="{StaticResource TextBlockFormElement}" />
+                                <components1:NumericTextBox Value="{Binding Path= Deklaracje.P_35, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Text="{Binding Deklaracje.P_35, Mode=OneWay}" TextAlignment="Right" Style="{StaticResource SimpleTextBox}" />
+                            </DockPanel>
+                            <DockPanel Style="{StaticResource FormLineDockPanel}">
+                                <TextBlock Text="P_36" Style="{StaticResource TextBlockFormElement}" />
+                                <components1:NumericTextBox Value="{Binding Path= Deklaracje.P_36, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Text="{Binding Deklaracje.P_36, Mode=OneWay}" TextAlignment="Right" Style="{StaticResource SimpleTextBox}" />
+                            </DockPanel>
+                            <DockPanel Style="{StaticResource FormLineDockPanel}">
+                                <TextBlock Text="P_37" Style="{StaticResource TextBlockFormElement}" />
+                                <components1:NumericTextBox Value="{Binding Path= Deklaracje.P_37, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Text="{Binding Deklaracje.P_37, Mode=OneWay}" TextAlignment="Right" Style="{StaticResource SimpleTextBox}" />
+                            </DockPanel>
+                            <DockPanel Style="{StaticResource FormLineDockPanel}">
+                                <TextBlock Text="P_38" Style="{StaticResource TextBlockFormElement}" />
+                                <components1:NumericTextBox Value="{Binding Path= Deklaracje.P_38, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Text="{Binding Deklaracje.P_38, Mode=OneWay}" TextAlignment="Right" Style="{StaticResource SimpleTextBox}" />
+                            </DockPanel>
+                            <DockPanel Style="{StaticResource FormLineDockPanel}">
+                                <TextBlock Text="P_39" Style="{StaticResource TextBlockFormElement}" />
+                                <components1:NumericTextBox Value="{Binding Path= Deklaracje.P_39, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Text="{Binding Deklaracje.P_39, Mode=OneWay}" TextAlignment="Right" Style="{StaticResource SimpleTextBox}" />
+                            </DockPanel>
+                            <DockPanel Style="{StaticResource FormLineDockPanel}">
+                                <TextBlock Text="P_40" Style="{StaticResource TextBlockFormElement}" />
+                                <components1:NumericTextBox Value="{Binding Path= Deklaracje.P_40, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Text="{Binding Deklaracje.P_40, Mode=OneWay}" TextAlignment="Right" Style="{StaticResource SimpleTextBox}" />
+                            </DockPanel>
+                            <DockPanel Style="{StaticResource FormLineDockPanel}">
+                                <TextBlock Text="P_41" Style="{StaticResource TextBlockFormElement}" />
+                                <components1:NumericTextBox Value="{Binding Path= Deklaracje.P_41, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Text="{Binding Deklaracje.P_41, Mode=OneWay}" TextAlignment="Right" Style="{StaticResource SimpleTextBox}" />
+                            </DockPanel>
+                            <DockPanel Style="{StaticResource FormLineDockPanel}">
+                                <TextBlock Text="P_42" Style="{StaticResource TextBlockFormElement}" />
+                                <components1:NumericTextBox Value="{Binding Path= Deklaracje.P_42, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Text="{Binding Deklaracje.P_42, Mode=OneWay}" TextAlignment="Right" Style="{StaticResource SimpleTextBox}" />
+                            </DockPanel>
+                            <DockPanel Style="{StaticResource FormLineDockPanel}">
+                                <TextBlock Text="P_43" Style="{StaticResource TextBlockFormElement}" />
+                                <components1:NumericTextBox Value="{Binding Path= Deklaracje.P_43, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Text="{Binding Deklaracje.P_43, Mode=OneWay}" TextAlignment="Right" Style="{StaticResource SimpleTextBox}" />
+                            </DockPanel>
+                            <DockPanel Style="{StaticResource FormLineDockPanel}">
+                                <TextBlock Text="P_44" Style="{StaticResource TextBlockFormElement}" />
+                                <components1:NumericTextBox Value="{Binding Path= Deklaracje.P_44, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Text="{Binding Deklaracje.P_44, Mode=OneWay}" TextAlignment="Right" Style="{StaticResource SimpleTextBox}" />
+                            </DockPanel>
+                            <DockPanel Style="{StaticResource FormLineDockPanel}">
+                                <TextBlock Text="P_45" Style="{StaticResource TextBlockFormElement}" />
+                                <components1:NumericTextBox Value="{Binding Path= Deklaracje.P_45, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Text="{Binding Deklaracje.P_45, Mode=OneWay}" TextAlignment="Right" Style="{StaticResource SimpleTextBox}" />
+                            </DockPanel>
+                            <DockPanel Style="{StaticResource FormLineDockPanel}">
+                                <TextBlock Text="P_46" Style="{StaticResource TextBlockFormElement}" />
+                                <components1:NumericTextBox Value="{Binding Path= Deklaracje.P_46, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Text="{Binding Deklaracje.P_46, Mode=OneWay}" TextAlignment="Right" Style="{StaticResource SimpleTextBox}" />
+                            </DockPanel>
+                            <DockPanel Style="{StaticResource FormLineDockPanel}">
+                                <TextBlock Text="P_47" Style="{StaticResource TextBlockFormElement}" />
+                                <components1:NumericTextBox Value="{Binding Path= Deklaracje.P_47, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Text="{Binding Deklaracje.P_47, Mode=OneWay}" TextAlignment="Right" Style="{StaticResource SimpleTextBox}" />
+                            </DockPanel>
+                            <DockPanel Style="{StaticResource FormLineDockPanel}">
+                                <TextBlock Text="P_48" Style="{StaticResource TextBlockFormElement}" />
+                                <components1:NumericTextBox Value="{Binding Path= Deklaracje.P_48, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Text="{Binding Deklaracje.P_48, Mode=OneWay}" TextAlignment="Right" Style="{StaticResource SimpleTextBox}" />
+                            </DockPanel>
+                            <DockPanel Style="{StaticResource FormLineDockPanel}">
+                                <TextBlock Text="P_49" Style="{StaticResource TextBlockFormElement}" />
+                                <components1:NumericTextBox Value="{Binding Path= Deklaracje.P_49, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Text="{Binding Deklaracje.P_49, Mode=OneWay}" TextAlignment="Right" Style="{StaticResource SimpleTextBox}" />
+                            </DockPanel>
+
+                        </StackPanel>
+                        <StackPanel HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="5" Grid.Column="2">
+
+                            <DockPanel Style="{StaticResource FormLineDockPanel}">
+                                <TextBlock Text="P_50" Style="{StaticResource TextBlockFormElement}" />
+                                <components1:NumericTextBox Value="{Binding Path= Deklaracje.P_50, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Text="{Binding Deklaracje.P_50, Mode=OneWay}" TextAlignment="Right" Style="{StaticResource SimpleTextBox}" />
+                            </DockPanel>
+                            <DockPanel Style="{StaticResource FormLineDockPanel}">
+                                <TextBlock Text="P_51" Style="{StaticResource TextBlockFormElement}" />
+                                <components1:NumericTextBox Value="{Binding Path= Deklaracje.P_51, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Text="{Binding Deklaracje.P_51, Mode=OneWay}" TextAlignment="Right" Style="{StaticResource SimpleTextBox}" />
+                            </DockPanel>
+                            <DockPanel Style="{StaticResource FormLineDockPanel}">
+                                <TextBlock Text="P_52" Style="{StaticResource TextBlockFormElement}" />
+                                <components1:NumericTextBox Value="{Binding Path= Deklaracje.P_52, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Text="{Binding Deklaracje.P_52, Mode=OneWay}" TextAlignment="Right" Style="{StaticResource SimpleTextBox}" />
+                            </DockPanel>
+                            <DockPanel Style="{StaticResource FormLineDockPanel}">
+                                <TextBlock Text="P_53" Style="{StaticResource TextBlockFormElement}" />
+                                <components1:NumericTextBox Value="{Binding Path= Deklaracje.P_53, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Text="{Binding Deklaracje.P_53, Mode=OneWay}" TextAlignment="Right" Style="{StaticResource SimpleTextBox}" />
+                            </DockPanel>
+                            <DockPanel Style="{StaticResource FormLineDockPanel}">
+                                <TextBlock Text="P_54" Style="{StaticResource TextBlockFormElement}" />
+                                <components1:NumericTextBox Value="{Binding Path= Deklaracje.P_54, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Text="{Binding Deklaracje.P_54, Mode=OneWay}" TextAlignment="Right" Style="{StaticResource SimpleTextBox}" />
+                            </DockPanel>
+                            <DockPanel Style="{StaticResource FormLineDockPanel}">
+                                <TextBlock Text="Rodzaj zwrotu" Style="{StaticResource TextBlockFormElement}" />
+                                <ComboBox ItemsSource="{Binding Deklaracje.ItemList, UpdateSourceTrigger=PropertyChanged}" IsEditable="False" Text="{Binding Deklaracje.ItemElementName}" />
+                                <CheckBox Style="{StaticResource CheckBoxFormElement}" IsChecked="{Binding Deklaracje.Item}" Margin="5 0 0 0"/>
+                            </DockPanel>
+                            <DockPanel Style="{StaticResource FormLineDockPanel}">
+                                <TextBlock Text="P_59" Style="{StaticResource TextBlockFormElement}" />
+                                <CheckBox Style="{StaticResource CheckBoxFormElement}" IsChecked="{Binding Deklaracje.P_59}" Margin="0 0 5 0"/>
+                            </DockPanel>
+                            <DockPanel Style="{StaticResource FormLineDockPanel}">
+                                <TextBlock Text="P_60" Style="{StaticResource TextBlockFormElement}" />
+                                <components1:NumericTextBox Value="{Binding Path= Deklaracje.P_60, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Text="{Binding Deklaracje.P_60, Mode=OneWay}" TextAlignment="Right" Style="{StaticResource SimpleTextBox}" />
+                            </DockPanel>
+                            <DockPanel Style="{StaticResource FormLineDockPanel}">
+                                <TextBlock Text="P_61" Style="{StaticResource TextBlockFormElement}" />
+                                <components1:NumericTextBox Value="{Binding Path= Deklaracje.P_61, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, TargetNullValue=0}" Text="{Binding Deklaracje.P_61, Mode=OneWay}" TextAlignment="Right" Style="{StaticResource SimpleTextBox}" />
+                            </DockPanel>
+                            <DockPanel Style="{StaticResource FormLineDockPanel}">
+                                <TextBlock Text="P_62" Style="{StaticResource TextBlockFormElement}" />
+                                <components1:NumericTextBox Value="{Binding Path= Deklaracje.P_62, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Text="{Binding Deklaracje.P_62, Mode=OneWay}" TextAlignment="Right" Style="{StaticResource SimpleTextBox}" />
+                            </DockPanel>
+                            <DockPanel Style="{StaticResource FormLineDockPanel}">
+                                <TextBlock Text="P_63" Style="{StaticResource TextBlockFormElement}" />
+                                <CheckBox Style="{StaticResource CheckBoxFormElement}" IsChecked="{Binding Deklaracje.P_63}" Margin="0 0 5 0"/>
+                            </DockPanel>
+                            <DockPanel Style="{StaticResource FormLineDockPanel}">
+                                <TextBlock Text="P_64" Style="{StaticResource TextBlockFormElement}" />
+                                <CheckBox Style="{StaticResource CheckBoxFormElement}" IsChecked="{Binding Deklaracje.P_64}" Margin="0 0 5 0"/>
+                            </DockPanel>
+                            <DockPanel Style="{StaticResource FormLineDockPanel}">
+                                <TextBlock Text="P_65" Style="{StaticResource TextBlockFormElement}" />
+                                <CheckBox Style="{StaticResource CheckBoxFormElement}" IsChecked="{Binding Deklaracje.P_65}" Margin="0 0 5 0"/>
+                            </DockPanel>
+                            <DockPanel Style="{StaticResource FormLineDockPanel}">
+                                <TextBlock Text="P_66" Style="{StaticResource TextBlockFormElement}" />
+                                <CheckBox Style="{StaticResource CheckBoxFormElement}" IsChecked="{Binding Deklaracje.P_66}" Margin="0 0 5 0"/>
+                            </DockPanel>
+                            <DockPanel Style="{StaticResource FormLineDockPanel}">
+                                <TextBlock Text="P_67" Style="{StaticResource TextBlockFormElement}" />
+                                <CheckBox Style="{StaticResource CheckBoxFormElement}" IsChecked="{Binding Deklaracje.P_67}" Margin="0 0 5 0"/>
+                            </DockPanel>
+                            <DockPanel Style="{StaticResource FormLineDockPanel}">
+                                <TextBlock Text="P_68" Style="{StaticResource TextBlockFormElement}" />
+                                <components1:NumericTextBox Value="{Binding Path= Deklaracje.P_68, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Text="{Binding Deklaracje.P_68, Mode=OneWay}" TextAlignment="Right" Style="{StaticResource SimpleTextBox}" />
+                            </DockPanel>
+                            <DockPanel Style="{StaticResource FormLineDockPanel}">
+                                <TextBlock Text="P_69" Style="{StaticResource TextBlockFormElement}" />
+                                <components1:NumericTextBox Value="{Binding Path= Deklaracje.P_69, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Text="{Binding Deklaracje.P_69, Mode=OneWay}" TextAlignment="Right" Style="{StaticResource SimpleTextBox}" />
+                            </DockPanel>
+                            <DockPanel Style="{StaticResource FormLineDockPanel}">
+                                <TextBlock Text="P_ORDZU" Style="{StaticResource TextBlockFormElement}" />
+                                <TextBox Text="{Binding Deklaracje.P_ORDZU, Mode=TwoWay}" MaxLength="240" TextAlignment="Left" Style="{StaticResource SimpleTextBox}" />
+                            </DockPanel>
+                        </StackPanel>
+
+                    </Grid>
+                </StackPanel>
+            </TabItem>
+            <TabItem Header="Sprzedaż">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                    <ToolBar Grid.Row="0"  AllowDrop="False" Style="{StaticResource ToolBarStyle}" ToolBarTray.IsLocked="True" Height="30" Grid.ColumnSpan="2" >
+                        <Button Command="{Binding AddNewSaleRowCommand}"
+                                ContentTemplate="{StaticResource AddButtonTemplate}"
+                                Style="{StaticResource ToolBarButton}" VerticalAlignment="Top" />
+                        <Button Command="{Binding DeleteSaleRowCommand}" ContentTemplate="{StaticResource DeletePurchaseButtonTemplate}" Style="{StaticResource ToolBarButton}" VerticalAlignment="Top" />
+                    </ToolBar>
+                    
+                </Grid>
+            </TabItem>
+            <TabItem Header="Zakupy" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+
+                    <ToolBar Grid.Row="0"  AllowDrop="False" Style="{StaticResource ToolBarStyle}" ToolBarTray.IsLocked="True" Height="30" >
+                        <Button Command="{Binding AddNewPurchaseRowCommand}" ContentTemplate="{StaticResource AddPurchaseButtonTemplate}" Style="{StaticResource ToolBarButton}" VerticalAlignment="Top" />
+                        <Button Command="{Binding DeletePurchaseRowCommand}" ContentTemplate="{StaticResource DeletePurchaseButtonTemplate}" Style="{StaticResource ToolBarButton}" VerticalAlignment="Top" />
+                    </ToolBar>
+
+                  
+                </Grid>
+            </TabItem>
+        </TabControl>
+        <StackPanel Grid.Row="1" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="10">
+            <Button ContentTemplate="{StaticResource SaveButtonTemplate}" Command="{Binding SaveCommand}" Margin="5,0,0,0"/>
+            <Button ContentTemplate="{StaticResource CancelButtonTemplate}" Command="{Binding CancelCommand}" Margin="5,0,5,0"/>
+        </StackPanel>
+    </Grid>
+    <Window.InputBindings>
+        <KeyBinding Key="Escape" Command="{Binding CancelCommand}" />
+    </Window.InputBindings>
+</Window>

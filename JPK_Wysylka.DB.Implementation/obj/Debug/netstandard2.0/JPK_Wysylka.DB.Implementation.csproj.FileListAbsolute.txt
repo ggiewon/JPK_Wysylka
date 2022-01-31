@@ -1,0 +1,5 @@
+C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_Wysylka.DB.Implementation\obj\Debug\netstandard2.0\JPK_Wysylka.DB.Implementation.csproj.AssemblyReference.cache
+C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_Wysylka.DB.Implementation\obj\Debug\netstandard2.0\JPK_Wysylka.DB.Implementation.Migrations.InitialVersion.resources
+C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_Wysylka.DB.Implementation\obj\Debug\netstandard2.0\JPK_Wysylka.DB.Implementation.csproj.GenerateResource.cache
+C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_Wysylka.DB.Implementation\obj\Debug\netstandard2.0\JPK_Wysylka.DB.Implementation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_Wysylka.DB.Implementation\obj\Debug\netstandard2.0\JPK_Wysylka.DB.Implementation.csproj.CoreCompileInputs.cache

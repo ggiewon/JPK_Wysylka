@@ -1,0 +1,3 @@
+C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.Configuration.Interfaces\obj\Debug\net5\JPK_WysylkaXML.Configuration.Interfaces.csproj.AssemblyReference.cache
+C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.Configuration.Interfaces\obj\Debug\net5\JPK_WysylkaXML.Configuration.Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.Configuration.Interfaces\obj\Debug\net5\JPK_WysylkaXML.Configuration.Interfaces.csproj.CoreCompileInputs.cache

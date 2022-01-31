@@ -1,0 +1,209 @@
+2021-11-16 12:35:13.5250|DEBUG|JPK_WysylkaXML.UI.App|Location: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug\
+2021-11-16 12:35:13.5461|DEBUG|JPK_WysylkaXML.UI.Configuration.AppConfigurationManager|ApplicationConfigPath: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug
+2021-11-16 12:35:13.5704|DEBUG|JPK_WysylkaXML.UI.Configuration.AppConfigurationManager|Application configuration: https://e-dokumenty.mf.gov.pl, https://test-e-dokumenty.mf.gov.pl, [DefaultUpdateUrl], test_e_dokumenty.mf.gov.pl.pem, a255fa99a87bbc6994f29f66c26dfa4.pem, True, [DefaultDataFolder], T
+2021-11-16 12:35:13.7888|DEBUG|JPK_WysylkaXML.UI.App|Location: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug\
+2021-11-16 12:35:16.0523|DEBUG|JPK_WysylkaXML.UI.App|Location: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug\
+2021-12-09 11:21:39.9852|DEBUG|JPK_WysylkaXML.UI.App|Location: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug\
+2021-12-09 11:21:40.0198|DEBUG|JPK_WysylkaXML.UI.Configuration.AppConfigurationManager|ApplicationConfigPath: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug
+2021-12-09 11:21:40.0558|DEBUG|JPK_WysylkaXML.UI.Configuration.AppConfigurationManager|Application configuration: https://e-dokumenty.mf.gov.pl, https://test-e-dokumenty.mf.gov.pl, [DefaultUpdateUrl], test_e_dokumenty.mf.gov.pl.pem, a255fa99a87bbc6994f29f66c26dfa4.pem, True, [DefaultDataFolder], T
+2021-12-09 11:21:40.4643|DEBUG|JPK_WysylkaXML.UI.App|Location: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug\
+2021-12-09 11:21:42.3730|DEBUG|JPK_WysylkaXML.UI.App|Location: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug\
+2021-12-09 11:26:26.9726|DEBUG|JPK_WysylkaXML.UI.App|Location: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug\
+2021-12-09 11:26:26.9925|DEBUG|JPK_WysylkaXML.UI.Configuration.AppConfigurationManager|ApplicationConfigPath: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug
+2021-12-09 11:26:27.0145|DEBUG|JPK_WysylkaXML.UI.Configuration.AppConfigurationManager|Application configuration: https://e-dokumenty.mf.gov.pl, https://test-e-dokumenty.mf.gov.pl, [DefaultUpdateUrl], test_e_dokumenty.mf.gov.pl.pem, a255fa99a87bbc6994f29f66c26dfa4.pem, True, [DefaultDataFolder], T
+2021-12-09 11:26:27.2458|DEBUG|JPK_WysylkaXML.UI.App|Location: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug\
+2021-12-09 11:26:46.1834|DEBUG|JPK_WysylkaXML.UI.App|Location: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug\
+2021-12-09 11:29:41.0753|DEBUG|JPK_WysylkaXML.UI.App|Location: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug\
+2021-12-09 11:29:41.1258|DEBUG|JPK_WysylkaXML.UI.Configuration.AppConfigurationManager|ApplicationConfigPath: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug
+2021-12-09 11:29:41.1609|DEBUG|JPK_WysylkaXML.UI.Configuration.AppConfigurationManager|Application configuration: https://e-dokumenty.mf.gov.pl, https://test-e-dokumenty.mf.gov.pl, [DefaultUpdateUrl], test_e_dokumenty.mf.gov.pl.pem, a255fa99a87bbc6994f29f66c26dfa4.pem, True, [DefaultDataFolder], T
+2021-12-09 11:29:41.6405|DEBUG|JPK_WysylkaXML.UI.App|Location: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug\
+2021-12-09 11:29:46.5868|DEBUG|JPK_WysylkaXML.UI.App|Location: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug\
+2021-12-09 12:09:44.2985|DEBUG|JPK_WysylkaXML.UI.App|Location: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug\
+2021-12-09 12:09:44.3334|DEBUG|JPK_WysylkaXML.UI.Configuration.AppConfigurationManager|ApplicationConfigPath: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug
+2021-12-09 12:09:44.3711|DEBUG|JPK_WysylkaXML.UI.Configuration.AppConfigurationManager|Application configuration: https://e-dokumenty.mf.gov.pl, https://test-e-dokumenty.mf.gov.pl, [DefaultUpdateUrl], test_e_dokumenty.mf.gov.pl.pem, a255fa99a87bbc6994f29f66c26dfa4.pem, True, [DefaultDataFolder], T
+2021-12-09 12:09:44.7694|DEBUG|JPK_WysylkaXML.UI.App|Location: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug\
+2021-12-09 12:10:09.3840|DEBUG|JPK_WysylkaXML.UI.App|Location: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug\
+2021-12-09 12:21:47.4022|DEBUG|JPK_WysylkaXML.UI.App|Location: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug\
+2021-12-09 12:21:47.4626|DEBUG|JPK_WysylkaXML.UI.Configuration.AppConfigurationManager|ApplicationConfigPath: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug
+2021-12-09 12:21:47.5093|DEBUG|JPK_WysylkaXML.UI.Configuration.AppConfigurationManager|Application configuration: https://e-dokumenty.mf.gov.pl, https://test-e-dokumenty.mf.gov.pl, [DefaultUpdateUrl], test_e_dokumenty.mf.gov.pl.pem, a255fa99a87bbc6994f29f66c26dfa4.pem, True, [DefaultDataFolder], T
+2021-12-09 12:21:47.9678|DEBUG|JPK_WysylkaXML.UI.App|Location: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug\
+2021-12-09 12:21:54.8694|DEBUG|JPK_WysylkaXML.UI.App|Location: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug\
+2021-12-09 12:48:28.4941|DEBUG|JPK_WysylkaXML.UI.App|Location: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug\
+2021-12-09 12:48:28.5260|DEBUG|JPK_WysylkaXML.UI.Configuration.AppConfigurationManager|ApplicationConfigPath: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug
+2021-12-09 12:48:28.5724|DEBUG|JPK_WysylkaXML.UI.Configuration.AppConfigurationManager|Application configuration: https://e-dokumenty.mf.gov.pl, https://test-e-dokumenty.mf.gov.pl, [DefaultUpdateUrl], test_e_dokumenty.mf.gov.pl.pem, a255fa99a87bbc6994f29f66c26dfa4.pem, True, [DefaultDataFolder], T
+2021-12-09 12:48:28.8036|DEBUG|JPK_WysylkaXML.UI.App|Location: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug\
+2021-12-09 12:48:30.9257|DEBUG|JPK_WysylkaXML.UI.App|Location: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug\
+2021-12-09 13:23:07.2083|DEBUG|JPK_WysylkaXML.UI.App|Location: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug\
+2021-12-09 13:23:07.2584|DEBUG|JPK_WysylkaXML.UI.Configuration.AppConfigurationManager|ApplicationConfigPath: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug
+2021-12-09 13:23:07.3152|DEBUG|JPK_WysylkaXML.UI.Configuration.AppConfigurationManager|Application configuration: https://e-dokumenty.mf.gov.pl, https://test-e-dokumenty.mf.gov.pl, [DefaultUpdateUrl], test_e_dokumenty.mf.gov.pl.pem, a255fa99a87bbc6994f29f66c26dfa4.pem, True, [DefaultDataFolder], T
+2021-12-09 13:23:07.9345|DEBUG|JPK_WysylkaXML.UI.App|Location: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug\
+2021-12-09 13:23:14.1470|DEBUG|JPK_WysylkaXML.UI.App|Location: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug\
+2021-12-09 13:38:36.1502|DEBUG|JPK_WysylkaXML.UI.App|Location: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug\
+2021-12-09 13:38:36.1858|DEBUG|JPK_WysylkaXML.UI.Configuration.AppConfigurationManager|ApplicationConfigPath: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug
+2021-12-09 13:38:36.2293|DEBUG|JPK_WysylkaXML.UI.Configuration.AppConfigurationManager|Application configuration: https://e-dokumenty.mf.gov.pl, https://test-e-dokumenty.mf.gov.pl, [DefaultUpdateUrl], test_e_dokumenty.mf.gov.pl.pem, a255fa99a87bbc6994f29f66c26dfa4.pem, True, [DefaultDataFolder], T
+2021-12-09 13:38:36.7038|DEBUG|JPK_WysylkaXML.UI.App|Location: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug\
+2021-12-09 13:39:52.0293|DEBUG|JPK_WysylkaXML.UI.App|Location: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug\
+2021-12-09 13:39:52.0606|DEBUG|JPK_WysylkaXML.UI.Configuration.AppConfigurationManager|ApplicationConfigPath: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug
+2021-12-09 13:39:52.0933|DEBUG|JPK_WysylkaXML.UI.Configuration.AppConfigurationManager|Application configuration: https://e-dokumenty.mf.gov.pl, https://test-e-dokumenty.mf.gov.pl, [DefaultUpdateUrl], test_e_dokumenty.mf.gov.pl.pem, a255fa99a87bbc6994f29f66c26dfa4.pem, True, [DefaultDataFolder], T
+2021-12-09 13:39:52.4710|DEBUG|JPK_WysylkaXML.UI.App|Location: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug\
+2021-12-09 13:40:16.6313|DEBUG|JPK_WysylkaXML.UI.App|Location: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug\
+2021-12-09 13:44:18.7681|DEBUG|JPK_WysylkaXML.UI.App|Location: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug\
+2021-12-09 13:44:18.8042|DEBUG|JPK_WysylkaXML.UI.Configuration.AppConfigurationManager|ApplicationConfigPath: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug
+2021-12-09 13:44:18.8456|DEBUG|JPK_WysylkaXML.UI.Configuration.AppConfigurationManager|Application configuration: https://e-dokumenty.mf.gov.pl, https://test-e-dokumenty.mf.gov.pl, [DefaultUpdateUrl], test_e_dokumenty.mf.gov.pl.pem, a255fa99a87bbc6994f29f66c26dfa4.pem, True, [DefaultDataFolder], T
+2021-12-09 13:44:19.3525|DEBUG|JPK_WysylkaXML.UI.App|Location: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug\
+2021-12-09 13:44:21.2164|DEBUG|JPK_WysylkaXML.UI.App|Location: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug\
+2021-12-09 13:49:34.1223|DEBUG|JPK_WysylkaXML.UI.App|Location: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug\
+2021-12-09 13:49:34.1575|DEBUG|JPK_WysylkaXML.UI.Configuration.AppConfigurationManager|ApplicationConfigPath: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug
+2021-12-09 13:49:34.2130|DEBUG|JPK_WysylkaXML.UI.Configuration.AppConfigurationManager|Application configuration: https://e-dokumenty.mf.gov.pl, https://test-e-dokumenty.mf.gov.pl, [DefaultUpdateUrl], test_e_dokumenty.mf.gov.pl.pem, a255fa99a87bbc6994f29f66c26dfa4.pem, True, [DefaultDataFolder], T
+2021-12-09 13:49:34.7442|DEBUG|JPK_WysylkaXML.UI.App|Location: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug\
+2021-12-09 13:49:37.8813|DEBUG|JPK_WysylkaXML.UI.App|Location: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug\
+2021-12-09 14:31:23.7316|DEBUG|JPK_WysylkaXML.UI.App|Location: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug\
+2021-12-09 14:31:23.7621|DEBUG|JPK_WysylkaXML.UI.Configuration.AppConfigurationManager|ApplicationConfigPath: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug
+2021-12-09 14:31:23.8134|DEBUG|JPK_WysylkaXML.UI.Configuration.AppConfigurationManager|Application configuration: https://e-dokumenty.mf.gov.pl, https://test-e-dokumenty.mf.gov.pl, [DefaultUpdateUrl], test_e_dokumenty.mf.gov.pl.pem, a255fa99a87bbc6994f29f66c26dfa4.pem, True, [DefaultDataFolder], T
+2021-12-09 14:31:24.2244|DEBUG|JPK_WysylkaXML.UI.App|Location: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug\
+2021-12-09 14:31:27.0892|DEBUG|JPK_WysylkaXML.UI.App|Location: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug\
+2021-12-09 14:32:47.4737|DEBUG|JPK_WysylkaXML.UI.App|Location: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug\
+2021-12-09 14:32:47.4996|DEBUG|JPK_WysylkaXML.UI.Configuration.AppConfigurationManager|ApplicationConfigPath: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug
+2021-12-09 14:32:47.5419|DEBUG|JPK_WysylkaXML.UI.Configuration.AppConfigurationManager|Application configuration: https://e-dokumenty.mf.gov.pl, https://test-e-dokumenty.mf.gov.pl, [DefaultUpdateUrl], test_e_dokumenty.mf.gov.pl.pem, a255fa99a87bbc6994f29f66c26dfa4.pem, True, [DefaultDataFolder], T
+2021-12-09 14:32:47.8908|DEBUG|JPK_WysylkaXML.UI.App|Location: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug\
+2021-12-09 14:32:49.8413|DEBUG|JPK_WysylkaXML.UI.App|Location: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug\
+2021-12-09 14:36:14.6761|DEBUG|JPK_WysylkaXML.UI.App|Location: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug\
+2021-12-09 14:36:14.7137|DEBUG|JPK_WysylkaXML.UI.Configuration.AppConfigurationManager|ApplicationConfigPath: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug
+2021-12-09 14:36:14.7681|DEBUG|JPK_WysylkaXML.UI.Configuration.AppConfigurationManager|Application configuration: https://e-dokumenty.mf.gov.pl, https://test-e-dokumenty.mf.gov.pl, [DefaultUpdateUrl], test_e_dokumenty.mf.gov.pl.pem, a255fa99a87bbc6994f29f66c26dfa4.pem, True, [DefaultDataFolder], T
+2021-12-09 14:36:15.1940|DEBUG|JPK_WysylkaXML.UI.App|Location: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug\
+2021-12-09 14:36:18.7375|DEBUG|JPK_WysylkaXML.UI.App|Location: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug\
+2021-12-09 14:39:24.8251|DEBUG|JPK_WysylkaXML.UI.App|Location: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug\
+2021-12-09 14:39:24.8615|DEBUG|JPK_WysylkaXML.UI.Configuration.AppConfigurationManager|ApplicationConfigPath: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug
+2021-12-09 14:39:24.9208|DEBUG|JPK_WysylkaXML.UI.Configuration.AppConfigurationManager|Application configuration: https://e-dokumenty.mf.gov.pl, https://test-e-dokumenty.mf.gov.pl, [DefaultUpdateUrl], test_e_dokumenty.mf.gov.pl.pem, a255fa99a87bbc6994f29f66c26dfa4.pem, True, [DefaultDataFolder], T
+2021-12-09 14:39:25.4468|DEBUG|JPK_WysylkaXML.UI.App|Location: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug\
+2021-12-09 14:39:29.7713|DEBUG|JPK_WysylkaXML.UI.App|Location: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug\
+2021-12-09 14:41:08.9825|DEBUG|JPK_WysylkaXML.UI.App|Location: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug\
+2021-12-09 14:41:09.0208|DEBUG|JPK_WysylkaXML.UI.Configuration.AppConfigurationManager|ApplicationConfigPath: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug
+2021-12-09 14:41:09.1078|DEBUG|JPK_WysylkaXML.UI.Configuration.AppConfigurationManager|Application configuration: https://e-dokumenty.mf.gov.pl, https://test-e-dokumenty.mf.gov.pl, [DefaultUpdateUrl], test_e_dokumenty.mf.gov.pl.pem, a255fa99a87bbc6994f29f66c26dfa4.pem, True, [DefaultDataFolder], T
+2021-12-09 14:41:09.6210|DEBUG|JPK_WysylkaXML.UI.App|Location: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug\
+2021-12-09 14:41:13.0226|DEBUG|JPK_WysylkaXML.UI.App|Location: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug\
+2021-12-09 14:41:46.2020|DEBUG|JPK_WysylkaXML.UI.App|Location: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug\
+2021-12-09 14:41:46.2433|DEBUG|JPK_WysylkaXML.UI.Configuration.AppConfigurationManager|ApplicationConfigPath: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug
+2021-12-09 14:41:46.3119|DEBUG|JPK_WysylkaXML.UI.Configuration.AppConfigurationManager|Application configuration: https://e-dokumenty.mf.gov.pl, https://test-e-dokumenty.mf.gov.pl, [DefaultUpdateUrl], test_e_dokumenty.mf.gov.pl.pem, a255fa99a87bbc6994f29f66c26dfa4.pem, True, [DefaultDataFolder], T
+2021-12-09 14:41:46.8214|DEBUG|JPK_WysylkaXML.UI.App|Location: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug\
+2021-12-09 14:41:49.1081|DEBUG|JPK_WysylkaXML.UI.App|Location: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug\
+2021-12-09 14:42:31.7844|DEBUG|JPK_WysylkaXML.UI.App|Location: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug\
+2021-12-09 14:42:31.8180|DEBUG|JPK_WysylkaXML.UI.Configuration.AppConfigurationManager|ApplicationConfigPath: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug
+2021-12-09 14:42:31.8702|DEBUG|JPK_WysylkaXML.UI.Configuration.AppConfigurationManager|Application configuration: https://e-dokumenty.mf.gov.pl, https://test-e-dokumenty.mf.gov.pl, [DefaultUpdateUrl], test_e_dokumenty.mf.gov.pl.pem, a255fa99a87bbc6994f29f66c26dfa4.pem, True, [DefaultDataFolder], T
+2021-12-09 14:43:25.7468|DEBUG|JPK_WysylkaXML.UI.App|Location: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug\
+2021-12-09 14:43:25.7897|DEBUG|JPK_WysylkaXML.UI.Configuration.AppConfigurationManager|ApplicationConfigPath: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug
+2021-12-09 14:43:58.1059|DEBUG|JPK_WysylkaXML.UI.App|Location: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug\
+2021-12-09 14:43:58.1396|DEBUG|JPK_WysylkaXML.UI.Configuration.AppConfigurationManager|ApplicationConfigPath: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug
+2021-12-09 14:44:09.3588|DEBUG|JPK_WysylkaXML.UI.Configuration.AppConfigurationManager|Application configuration: https://e-dokumenty.mf.gov.pl, https://test-e-dokumenty.mf.gov.pl, [DefaultUpdateUrl], test_e_dokumenty.mf.gov.pl.pem, a255fa99a87bbc6994f29f66c26dfa4.pem, True, [DefaultDataFolder], T
+2021-12-09 14:44:12.5367|DEBUG|JPK_WysylkaXML.UI.App|Location: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug\
+2021-12-09 14:44:17.4375|DEBUG|JPK_WysylkaXML.UI.App|Location: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug\
+2021-12-09 14:59:03.2005|DEBUG|JPK_WysylkaXML.UI.App|Location: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug\
+2021-12-09 14:59:03.2371|DEBUG|JPK_WysylkaXML.UI.Configuration.AppConfigurationManager|ApplicationConfigPath: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug
+2021-12-09 14:59:06.5037|DEBUG|JPK_WysylkaXML.UI.Configuration.AppConfigurationManager|Application configuration: https://e-dokumenty.mf.gov.pl, https://test-e-dokumenty.mf.gov.pl, [DefaultUpdateUrl], test_e_dokumenty.mf.gov.pl.pem, a255fa99a87bbc6994f29f66c26dfa4.pem, True, [DefaultDataFolder], T
+2021-12-09 14:59:09.1752|DEBUG|JPK_WysylkaXML.UI.App|Location: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug\
+2021-12-09 14:59:11.2986|DEBUG|JPK_WysylkaXML.UI.App|Location: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug\
+2021-12-09 15:00:26.2179|DEBUG|JPK_WysylkaXML.UI.App|Location: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug\
+2021-12-09 15:00:26.2512|DEBUG|JPK_WysylkaXML.UI.Configuration.AppConfigurationManager|ApplicationConfigPath: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug
+2021-12-09 15:00:38.1220|DEBUG|JPK_WysylkaXML.UI.Configuration.AppConfigurationManager|Application configuration: https://e-dokumenty.mf.gov.pl, https://test-e-dokumenty.mf.gov.pl, [DefaultUpdateUrl], test_e_dokumenty.mf.gov.pl.pem, a255fa99a87bbc6994f29f66c26dfa4.pem, True, [DefaultDataFolder], T
+2021-12-09 15:00:42.9920|DEBUG|JPK_WysylkaXML.UI.App|Location: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug\
+2021-12-09 15:00:44.9501|DEBUG|JPK_WysylkaXML.UI.App|Location: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug\
+2021-12-09 15:02:02.1645|DEBUG|JPK_WysylkaXML.UI.App|Location: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug\
+2021-12-09 15:02:02.2082|DEBUG|JPK_WysylkaXML.UI.Configuration.AppConfigurationManager|ApplicationConfigPath: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug
+2021-12-09 15:02:02.2843|DEBUG|JPK_WysylkaXML.UI.Configuration.AppConfigurationManager|Application configuration: https://e-dokumenty.mf.gov.pl, https://test-e-dokumenty.mf.gov.pl, [DefaultUpdateUrl], test_e_dokumenty.mf.gov.pl.pem, a255fa99a87bbc6994f29f66c26dfa4.pem, True, [DefaultDataFolder], T
+2021-12-09 15:02:31.2416|DEBUG|JPK_WysylkaXML.UI.App|Location: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug\
+2021-12-09 15:02:36.0885|DEBUG|JPK_WysylkaXML.UI.App|Location: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug\
+2021-12-09 15:05:11.8640|DEBUG|JPK_WysylkaXML.UI.App|Location: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug\
+2021-12-09 15:05:11.8843|DEBUG|JPK_WysylkaXML.UI.Configuration.AppConfigurationManager|ApplicationConfigPath: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug
+2021-12-09 15:05:11.9195|DEBUG|JPK_WysylkaXML.UI.Configuration.AppConfigurationManager|Application configuration: https://e-dokumenty.mf.gov.pl, https://test-e-dokumenty.mf.gov.pl, [DefaultUpdateUrl], test_e_dokumenty.mf.gov.pl.pem, a255fa99a87bbc6994f29f66c26dfa4.pem, True, [DefaultDataFolder], T
+2021-12-09 15:05:12.2483|DEBUG|JPK_WysylkaXML.UI.App|Location: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug\
+2021-12-09 15:05:14.7696|DEBUG|JPK_WysylkaXML.UI.App|Location: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug\
+2021-12-09 15:10:01.4455|DEBUG|JPK_WysylkaXML.UI.App|Location: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug\
+2021-12-09 15:10:01.4693|DEBUG|JPK_WysylkaXML.UI.Configuration.AppConfigurationManager|ApplicationConfigPath: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug
+2021-12-09 15:10:01.5015|DEBUG|JPK_WysylkaXML.UI.Configuration.AppConfigurationManager|Application configuration: https://e-dokumenty.mf.gov.pl, https://test-e-dokumenty.mf.gov.pl, [DefaultUpdateUrl], test_e_dokumenty.mf.gov.pl.pem, a255fa99a87bbc6994f29f66c26dfa4.pem, True, [DefaultDataFolder], T
+2021-12-09 15:10:01.8361|DEBUG|JPK_WysylkaXML.UI.App|Location: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug\
+2021-12-09 15:10:03.7744|DEBUG|JPK_WysylkaXML.UI.App|Location: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug\
+2021-12-09 15:11:30.4791|DEBUG|JPK_WysylkaXML.UI.App|Location: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug\
+2021-12-09 15:11:30.5044|DEBUG|JPK_WysylkaXML.UI.Configuration.AppConfigurationManager|ApplicationConfigPath: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug
+2021-12-09 15:11:30.5568|DEBUG|JPK_WysylkaXML.UI.Configuration.AppConfigurationManager|Application configuration: https://e-dokumenty.mf.gov.pl, https://test-e-dokumenty.mf.gov.pl, [DefaultUpdateUrl], test_e_dokumenty.mf.gov.pl.pem, a255fa99a87bbc6994f29f66c26dfa4.pem, True, [DefaultDataFolder], T
+2021-12-09 15:11:30.8858|DEBUG|JPK_WysylkaXML.UI.App|Location: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug\
+2021-12-09 15:11:32.8108|DEBUG|JPK_WysylkaXML.UI.App|Location: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug\
+2021-12-09 15:13:16.6541|DEBUG|JPK_WysylkaXML.UI.App|Location: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug\
+2021-12-09 15:13:16.6837|DEBUG|JPK_WysylkaXML.UI.Configuration.AppConfigurationManager|ApplicationConfigPath: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug
+2021-12-09 15:13:16.7295|DEBUG|JPK_WysylkaXML.UI.Configuration.AppConfigurationManager|Application configuration: https://e-dokumenty.mf.gov.pl, https://test-e-dokumenty.mf.gov.pl, [DefaultUpdateUrl], test_e_dokumenty.mf.gov.pl.pem, a255fa99a87bbc6994f29f66c26dfa4.pem, True, [DefaultDataFolder], T
+2021-12-09 15:13:17.0719|DEBUG|JPK_WysylkaXML.UI.App|Location: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug\
+2021-12-09 15:13:19.1251|DEBUG|JPK_WysylkaXML.UI.App|Location: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug\
+2021-12-09 15:23:54.1601|DEBUG|JPK_WysylkaXML.UI.App|Location: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug\
+2021-12-09 15:23:54.1926|DEBUG|JPK_WysylkaXML.UI.Configuration.AppConfigurationManager|ApplicationConfigPath: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug
+2021-12-09 15:23:54.2631|DEBUG|JPK_WysylkaXML.UI.Configuration.AppConfigurationManager|Application configuration: https://e-dokumenty.mf.gov.pl, https://test-e-dokumenty.mf.gov.pl, [DefaultUpdateUrl], test_e_dokumenty.mf.gov.pl.pem, a255fa99a87bbc6994f29f66c26dfa4.pem, True, [DefaultDataFolder], T
+2021-12-09 15:23:54.7053|DEBUG|JPK_WysylkaXML.UI.App|Location: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug\
+2021-12-09 15:23:58.5787|DEBUG|JPK_WysylkaXML.UI.App|Location: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug\
+2021-12-09 15:24:21.3720|ERROR|JPK.Exceptions.UnhandledExceptionHandler|System.TypeInitializationException: The type initializer for 'UnitSoftware.Common.Implementation.Language.ResourceTranslator' threw an exception.
+ ---> System.ArgumentException: Embedded resource with name 'Translations.Strings.resources' cannot be found in assembly 'JPK_WysylkaXML.UI, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+   at UnitSoftware.Common.Implementation.Language.ResourceTranslator..cctor()
+   --- End of inner exception stack trace ---
+   at UnitSoftware.Common.Implementation.Language.ResourceTranslator.GetString(String key)
+   at JPK.Validators.XmlValidator.Validate(String xmlDocument, Action`1 logCallback) in C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK\Validators\XmlValidator.cs:line 112
+   at JPK.Validators.XmlValidator.<>c__DisplayClass9_0.<ValidateAsync>b__0() in C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK\Validators\XmlValidator.cs:line 129
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__277_0(Object obj)
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at JPK.Validators.XmlValidator.ValidateAsync(String xmlDocument, Action`1 logCallback) in C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK\Validators\XmlValidator.cs:line 131
+   at JPK_WysylkaXML.UI.ViewModel.MainViewModel.ValidateCommandExecute(Object obj) in C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\ViewModel\MainViewModel.cs:line 292
+   at System.Threading.Tasks.Task.<>c.<ThrowAsync>b__140_0(Object state)
+   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+   at System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler)
+2021-12-09 15:31:28.6619|DEBUG|JPK_WysylkaXML.UI.App|Location: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug\
+2021-12-09 15:31:28.6974|DEBUG|JPK_WysylkaXML.UI.Configuration.AppConfigurationManager|ApplicationConfigPath: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug
+2021-12-09 15:31:28.7369|DEBUG|JPK_WysylkaXML.UI.Configuration.AppConfigurationManager|Application configuration: https://e-dokumenty.mf.gov.pl, https://test-e-dokumenty.mf.gov.pl, [DefaultUpdateUrl], test_e_dokumenty.mf.gov.pl.pem, a255fa99a87bbc6994f29f66c26dfa4.pem, True, [DefaultDataFolder], T
+2021-12-09 15:31:29.1650|DEBUG|JPK_WysylkaXML.UI.App|Location: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug\
+2021-12-09 15:31:31.7308|DEBUG|JPK_WysylkaXML.UI.App|Location: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug\
+2021-12-09 15:32:02.7060|TRACE|JPK.Files.FilePreparer|CompressFile - Begin
+2021-12-09 15:32:02.7060|DEBUG|JPK.Files.FilePreparer|CompressFile - inputFilename: [DefaultDataFolder]\20211209153202\10b4dd5d-a0af-4015-a98e-af84c4189918.XML
+2021-12-09 15:32:02.7060|TRACE|JPK.Files.Providers.ZipFilenameProvider|GetZipFilename - Begin
+2021-12-09 15:32:02.7060|TRACE|JPK.Files.Providers.ZipFilenameProvider|GetZipFilename - End
+2021-12-09 15:32:02.7060|DEBUG|JPK.Files.FilePreparer|Zip Filename: [DefaultDataFolder]\20211209153202\10b4dd5d-a0af-4015-a98e-af84c4189918.zip
+2021-12-09 15:32:02.7060|DEBUG|JPK.Files.FilePreparer|Zip Temp folder: C:\Users\ggiewon\AppData\Local\Temp\
+2021-12-09 15:32:02.7653|DEBUG|JPK.Files.FilePreparer|CompressFile - zipFilename: [DefaultDataFolder]\20211209153202\10b4dd5d-a0af-4015-a98e-af84c4189918.zip
+2021-12-09 15:32:02.7653|TRACE|JPK.Files.FilePreparer|CompressFile - End
+2021-12-09 15:32:02.7653|TRACE|JPK.Files.FileDivider|Divide - Begin
+2021-12-09 15:32:02.7653|DEBUG|JPK.Files.FileDivider|Divide - splitResult: [DefaultDataFolder]\20211209153202\10b4dd5d-a0af-4015-a98e-af84c4189918.zip,
+2021-12-09 15:32:02.7653|TRACE|JPK.Files.FileDivider|Divide - End
+2021-12-09 15:34:04.3117|DEBUG|JPK_WysylkaXML.UI.App|Location: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug\
+2021-12-09 15:34:04.3469|DEBUG|JPK_WysylkaXML.UI.Configuration.AppConfigurationManager|ApplicationConfigPath: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug
+2021-12-09 15:34:04.4076|DEBUG|JPK_WysylkaXML.UI.Configuration.AppConfigurationManager|Application configuration: https://e-dokumenty.mf.gov.pl, https://test-e-dokumenty.mf.gov.pl, [DefaultUpdateUrl], test_e_dokumenty.mf.gov.pl.pem, a255fa99a87bbc6994f29f66c26dfa4.pem, True, [DefaultDataFolder], T
+2021-12-09 15:34:04.8193|DEBUG|JPK_WysylkaXML.UI.App|Location: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug\
+2021-12-09 15:34:06.6747|DEBUG|JPK_WysylkaXML.UI.App|Location: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug\
+2021-12-09 15:36:03.4804|TRACE|JPK.Files.FilePreparer|CompressFile - Begin
+2021-12-09 15:36:03.4804|DEBUG|JPK.Files.FilePreparer|CompressFile - inputFilename: [DefaultDataFolder]\20211209153603\c3254211-13ce-4429-b0f1-c011bf2384cc.XML
+2021-12-09 15:36:03.4804|TRACE|JPK.Files.Providers.ZipFilenameProvider|GetZipFilename - Begin
+2021-12-09 15:36:03.4804|TRACE|JPK.Files.Providers.ZipFilenameProvider|GetZipFilename - End
+2021-12-09 15:36:03.4804|DEBUG|JPK.Files.FilePreparer|Zip Filename: [DefaultDataFolder]\20211209153603\c3254211-13ce-4429-b0f1-c011bf2384cc.zip
+2021-12-09 15:36:03.4804|DEBUG|JPK.Files.FilePreparer|Zip Temp folder: C:\Users\ggiewon\AppData\Local\Temp\
+2021-12-09 15:36:03.5326|DEBUG|JPK.Files.FilePreparer|CompressFile - zipFilename: [DefaultDataFolder]\20211209153603\c3254211-13ce-4429-b0f1-c011bf2384cc.zip
+2021-12-09 15:36:03.5326|TRACE|JPK.Files.FilePreparer|CompressFile - End
+2021-12-09 15:36:03.5326|TRACE|JPK.Files.FileDivider|Divide - Begin
+2021-12-09 15:36:03.5326|DEBUG|JPK.Files.FileDivider|Divide - splitResult: [DefaultDataFolder]\20211209153603\c3254211-13ce-4429-b0f1-c011bf2384cc.zip,
+2021-12-09 15:36:03.5326|TRACE|JPK.Files.FileDivider|Divide - End
+2021-12-09 15:36:07.7128|TRACE|JPK.Helpers.Http.HttpHelper|SendInitUploadSigned begin
+2021-12-09 15:36:07.7128|DEBUG|JPK.Helpers.Http.HttpHelper|[XnlData] Xml to send: <?xml version="1.0" encoding="utf-8"?><InitUpload xmlns="http://e-dokumenty.mf.gov.pl"><DocumentType>JPK</DocumentType><Version>01.02.01.20160617</Version><EncryptionKey algorithm="RSA" mode="ECB" padding="PKCS#1" encoding="Base64">jcBnbGaruKIeOoLdB1cksOgf3NuOKX7Ez8weEPugKHodRA58jKm080PukHFaYkfAZb+0KTuL0KcWYI/+q4hL0jk9qeeizsT/Ju9ic8nfzYUKcRXsQG2CpJTUphFrzkhVFLk+hVAwbkz4nSAeFjLLLZJ0Rgc1pBkIgS0CZBc/l8onYai+S/1BiH759f/01T4VB51KgaXwdVb/mob96fzksWxO2w7rUdGVrkAZD3LT7hN2g/bOhViGPfhMBrTyCkRM1xotIXXVT/qkL4w7lvzDKuooC0uX49G3vBqCCjrmWg2vRBV2prjOGRDlVrK/+0MNquAwGCu4W/loNBRJl7OJbw==</EncryptionKey><DocumentList><Document><FormCode systemCode="JPK_V7M (2)" schemaVersion="1-0E">JPK_V7M</FormCode><FileName>c3254211-13ce-4429-b0f1-c011bf2384cc</FileName><ContentLength>5435</ContentLength><HashValue algorithm="SHA-256" encoding="Base64">sXruvARSPMcWCOYTY8f/m4jAX6QhWP6kH2KdGk92B4c=</HashValue><FileSignatureList filesNumber="1"><Packaging><SplitZip type="split" mode="zip" /></Packaging><Encryption><AES size="256" block="16" mode="CBC" padding="PKCS#7"><IV bytes="16" encoding="Base64">ls4UvrUXwApSLOqVpsT8wA==</IV></AES></Encryption><FileSignature><OrdinalNumber>1</OrdinalNumber><FileName>c3254211-13ce-4429-b0f1-c011bf2384cc.zip.encrypted</FileName><ContentLength>1920</ContentLength><HashValue algorithm="MD5" encoding="Base64">vBe7JzsmVRPUi4cukzRAYQ==</HashValue></FileSignature></FileSignatureList></Document></DocumentList><Signature Id="signature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><DigestValue>A5Yjw6qeTEskPXX8Ns2M/GgpxDJnelTPsPSsc1veuEo=</DigestValue></Reference><Reference URI="#xadesSignedProperties" Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><DigestValue>wK+MtHp5whqGXl6NsIq65MTuYX/HZvJ8OCvRJV5OKDo=</DigestValue></Reference></SignedInfo><SignatureValue>OH8kqOtM7xd9+1LWjCtgNYevJ5fcoHPsY3yYct0XXEVevaJvpxaILqlOzvYzgzCdI1jQcPMgq4KsQKqZH+FaSw1DwZJ81/p2mJGot9FUyqSMVwa27RdHoo1vPfEW0FURKaXCN+s3icrrNg2l1cHp6v7j8Z8UeEniB6KFHBG835k=</SignatureValue><KeyInfo><X509Data><X509Certificate>MIICMTCCAZqgAwIBAgIQWTDlwxBQwIBLh55519yaKzANBgkqhkiG9w0BAQsFADBXMVUwUwYDVQQDHkwAewA3AEYAQwAyADQANgBGADQALQA4ADcAMgA3AC0ANABBAEIAOAAtADkAOAA5AEYALQA5AEMAQwA5ADcANQAyADMAQgBGADAANwB9MB4XDTE4MDkxMDE0MDAzMFoXDTE5MDkxMDIwMDAzMFowVzFVMFMGA1UEAx5MAHsANwBGAEMAMgA0ADYARgA0AC0AOAA3ADIANwAtADQAQQBCADgALQA5ADgAOQBGAC0AOQBDAEMAOQA3ADUAMgAzAEIARgAwADcAfTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAoQabz1454s4iATaJJ+w9kfWAfjAdJtSqjFFca7/o+MMu0+G1fS7zinjf3I2Naya+LsBvTlXUJ+ifU31nzAEtHCbCqR+E3MSKaOAqbtUWrOfFMxMcKRqN0w9eTMU9BSpCMZJUrfsB0brp2k56vFRMLf5igi/C/FcyCYk4tGe6ej8CAwEAATANBgkqhkiG9w0BAQsFAAOBgQBGF5mFB4gCWS4RM7YpNOFTe3Oz3H8kvatFr3tQ7rvy9vLocdK0J6rRGWC5GVIaUt2ErwIW3c1at8TVMrS2jX/K24O2oWOwmzmw4PBmrTBMgOpK1CQqQIe8aYKefmmnpVltbM+9317qPr/CNPsVnvir7M6x1C7/50qUv03w3MnVXg==</X509Certificate></X509Data></KeyInfo><Object><QualifyingProperties Target="signature" xmlns="http://uri.etsi.org/01903/v1.3.2#"><SignedProperties Id="xadesSignedProperties"><SignedSignatureProperties><SigningTime>2021-12-09T14:36:07Z</SigningTime><SigningCertificate><Cert><CertDigest><DigestMethod xmlns="http://www.w3.org/2000/09/xmldsig#">http://www.w3.org/2000/09/xmldsig#sha1</DigestMethod><DigestValue xmlns="http://www.w3.org/2000/09/xmldsig#">L1qeHO5RzBdceMRkY6m36Zmscp0=</DigestValue></CertDigest><IssuerSerial><X509IssuerName xmlns="http://www.w3.org/2000/09/xmldsig#">CN={7FC246F4-8727-4AB8-989F-9CC97523BF07}</X509IssuerName><X509SerialNumber xmlns="http://www.w3.org/2000/09/xmldsig#">5930E5C31050C0804B879E79D7DC9A2B</X509SerialNumber></IssuerSerial></Cert></SigningCertificate></SignedSignatureProperties></SignedProperties><UnsignedProperties><UnsignedSignatureProperties /></UnsignedProperties></QualifyingProperties></Object></Signature></InitUpload>
+2021-12-09 15:36:08.4443|DEBUG|JPK.Helpers.Http.HttpHelper|RestResponse: {"Message":"Nieobsługiwany kod formularza: JPK_V7M (2).","Code":150,"RequestId":"5af5e284dcac2444"}
+2021-12-09 15:36:14.3744|TRACE|JPK.Helpers.Http.HttpHelper|SendInitUploadSigned end
+2021-12-10 08:01:05.0972|DEBUG|JPK_WysylkaXML.UI.App|Location: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug\
+2021-12-10 08:01:05.1287|DEBUG|JPK_WysylkaXML.UI.Configuration.AppConfigurationManager|ApplicationConfigPath: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug
+2021-12-10 08:01:05.1845|DEBUG|JPK_WysylkaXML.UI.Configuration.AppConfigurationManager|Application configuration: https://e-dokumenty.mf.gov.pl, https://test-e-dokumenty.mf.gov.pl, [DefaultUpdateUrl], test_e_dokumenty.mf.gov.pl.pem, a255fa99a87bbc6994f29f66c26dfa4.pem, True, [DefaultDataFolder], T
+2021-12-10 08:01:05.7277|DEBUG|JPK_WysylkaXML.UI.App|Location: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug\
+2021-12-10 08:01:08.4898|DEBUG|JPK_WysylkaXML.UI.App|Location: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug\
+2021-12-10 11:23:35.2154|DEBUG|JPK_WysylkaXML.UI.App|Location: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug\
+2021-12-10 11:23:35.2865|DEBUG|JPK_WysylkaXML.UI.Configuration.AppConfigurationManager|ApplicationConfigPath: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug
+2021-12-10 11:23:35.3818|DEBUG|JPK_WysylkaXML.UI.Configuration.AppConfigurationManager|Application configuration: https://e-dokumenty.mf.gov.pl, https://test-e-dokumenty.mf.gov.pl, [DefaultUpdateUrl], test_e_dokumenty.mf.gov.pl.pem, a255fa99a87bbc6994f29f66c26dfa4.pem, True, [DefaultDataFolder], T
+2021-12-10 11:23:36.1612|DEBUG|JPK_WysylkaXML.UI.App|Location: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug\
+2021-12-10 11:23:39.8995|DEBUG|JPK_WysylkaXML.UI.App|Location: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug\
+2022-01-04 14:13:58.1760|DEBUG|JPK_WysylkaXML.UI.App|Location: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug\
+2022-01-04 14:13:58.2718|DEBUG|JPK_WysylkaXML.UI.Configuration.AppConfigurationManager|ApplicationConfigPath: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug
+2022-01-04 14:13:58.6017|DEBUG|JPK_WysylkaXML.UI.Configuration.AppConfigurationManager|Application configuration: https://e-dokumenty.mf.gov.pl, https://test-e-dokumenty.mf.gov.pl, [DefaultUpdateUrl], test_e_dokumenty.mf.gov.pl.pem, a255fa99a87bbc6994f29f66c26dfa4.pem, True, [DefaultDataFolder], T
+2022-01-04 14:14:00.6361|DEBUG|JPK_WysylkaXML.UI.App|Location: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug\
+2022-01-04 14:14:51.9983|DEBUG|JPK_WysylkaXML.UI.App|Location: C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.UI\bin\x64\Debug\

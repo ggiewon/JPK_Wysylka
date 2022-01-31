@@ -1,0 +1,429 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Common_BtnSaveText" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="MainView_ValidateBtn" xml:space="preserve">
+    <value>Validate</value>
+  </data>
+  <data name="MainView_EditBtn" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="Common_BtnCancelText" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="EditJPKView_NewSaleRowBtn" xml:space="preserve">
+    <value>New sale row</value>
+  </data>
+  <data name="EditJPKView_NewPurchaseRowBtn" xml:space="preserve">
+    <value>New purchase row</value>
+  </data>
+  <data name="EditJPKView_ImportRowsBtn" xml:space="preserve">
+    <value>Import rows</value>
+  </data>
+  <data name="EditJPKView_DeleteSelectedRowBtn" xml:space="preserve">
+    <value>Delete selected row</value>
+  </data>
+  <data name="EditJPKView_DeleteAllRowsBtn" xml:space="preserve">
+    <value>Delete all rows</value>
+  </data>
+  <data name="HistoryView_GenerateUpoAsPDFBtn" xml:space="preserve">
+    <value>Generate UPO as PDF</value>
+  </data>
+  <data name="HistoryView_SaveUpoAsXmlBtn" xml:space="preserve">
+    <value>Save UPO as XML</value>
+  </data>
+  <data name="Common_CloseBtn" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="HistoryView_RefreshStatusBtn" xml:space="preserve">
+    <value>Refresh status</value>
+  </data>
+  <data name="MainView_CheckStatusBtn" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="MainView_ClearLogViewToolTip" xml:space="preserve">
+    <value>Clear log view</value>
+  </data>
+  <data name="MainView_SaveLogViewToolTip" xml:space="preserve">
+    <value>Save log</value>
+  </data>
+  <data name="MainView_SendNoValidationBtn" xml:space="preserve">
+    <value>Send without validation</value>
+  </data>
+  <data name="MainView_SendBtn" xml:space="preserve">
+    <value>Send</value>
+  </data>
+  <data name="MainView_InputFileLabel" xml:space="preserve">
+    <value>Input file:</value>
+  </data>
+  <data name="MainView_RefNoLabel" xml:space="preserve">
+    <value>Reference No:</value>
+  </data>
+  <data name="MainView_FileMenuItem" xml:space="preserve">
+    <value>_File</value>
+  </data>
+  <data name="MainView_FileExitMenuItem" xml:space="preserve">
+    <value>_Exit</value>
+  </data>
+  <data name="MainView_ServerMenuItem" xml:space="preserve">
+    <value>_Server</value>
+  </data>
+  <data name="MainView_ServerTestMenuItem" xml:space="preserve">
+    <value>_Test server</value>
+  </data>
+  <data name="MainView_ServerProductionMenuItem" xml:space="preserve">
+    <value>_Production server</value>
+  </data>
+  <data name="MainView_HistoryMenuItem" xml:space="preserve">
+    <value>_History</value>
+  </data>
+  <data name="MainView_VersionMenuItem" xml:space="preserve">
+    <value>_Application version</value>
+  </data>
+  <data name="MainView_SettingsMenuItem" xml:space="preserve">
+    <value>_Settings</value>
+  </data>
+  <data name="MainView_SettingsConfigurationMenuItem" xml:space="preserve">
+    <value>_Configuration</value>
+  </data>
+  <data name="MainView_ResetEditSettingsMenuItem" xml:space="preserve">
+    <value>_Reset edit JPK settings</value>
+  </data>
+  <data name="ApplicationVersionPopup_Title" xml:space="preserve">
+    <value>Application version</value>
+  </data>
+  <data name="ApplicationVersionPopup_MainModuleVersionLabel" xml:space="preserve">
+    <value>Main module version: {0}</value>
+  </data>
+  <data name="ApplicationVersionPopup_LoadedModulesLabel" xml:space="preserve">
+    <value>Loaded modules: \n\r {0}</value>
+  </data>
+  <data name="MainView_ValidationStartedTxt" xml:space="preserve">
+    <value>Validation in progress...</value>
+  </data>
+  <data name="MainView_ValidationEndedOkTxt" xml:space="preserve">
+    <value>Validation ended. File is valid.</value>
+  </data>
+  <data name="MainView_ValidationEndedErrorsTxt" xml:space="preserve">
+    <value>Validation ended. File is invalid!</value>
+  </data>
+  <data name="MainView_UserDataTitle" xml:space="preserve">
+    <value>User settings</value>
+  </data>
+  <data name="Common_WritePermissionsTitle" xml:space="preserve">
+    <value>Write permissions</value>
+  </data>
+  <data name="Common_MissingLicenseTitle" xml:space="preserve">
+    <value>License missing</value>
+  </data>
+  <data name="Common_MissingLicenseMessage" xml:space="preserve">
+    <value>License is missing. Application works in demo mode.</value>
+  </data>
+  <data name="Common_MissingLicenseDetails" xml:space="preserve">
+    <value>To activate the full version, upload the license file to the License sub-directory </value>
+  </data>
+  <data name="Common_CreateFolderTitle" xml:space="preserve">
+    <value>Creating folder error</value>
+  </data>
+  <data name="Common_CreateLicenseFolderMessage" xml:space="preserve">
+    <value>The license folder could not be created.</value>
+  </data>
+  <data name="Common_CreateLicenseFolderDetails" xml:space="preserve">
+    <value>The {0} directory is required, where the license files will be stored </value>
+  </data>
+  <data name="Common_CreateLogFolderMessage" xml:space="preserve">
+    <value>Failed to create log folder.</value>
+  </data>
+  <data name="Common_CreateLogFolderDetails" xml:space="preserve">
+    <value>Please contact IT to correct the error. Directory needed: {0}</value>
+  </data>
+  <data name="Common_WritePermissionsMessage" xml:space="preserve">
+    <value>Unable to write to the data directory.</value>
+  </data>
+  <data name="Common_WritePermissionsDetails" xml:space="preserve">
+    <value>Please contact IT to correct the error. Data Directory: {0}</value>
+  </data>
+  <data name="Common_ApplicationErrorTitle" xml:space="preserve">
+    <value>Application error</value>
+  </data>
+  <data name="Common_ApplicationErrorMessage" xml:space="preserve">
+    <value>There was an error starting the application</value>
+  </data>
+  <data name="Common_ApplicationErrorDetails" xml:space="preserve">
+    <value>Error details: {0}</value>
+  </data>
+  <data name="HistoryView_Title" xml:space="preserve">
+    <value>History</value>
+  </data>
+  <data name="HistoryView_ServerTypeHeader" xml:space="preserve">
+    <value>Server</value>
+  </data>
+  <data name="HistoryView_RefNoHeader" xml:space="preserve">
+    <value>Ref No</value>
+  </data>
+  <data name="HistoryView_SendDateHeader" xml:space="preserve">
+    <value>Send date</value>
+  </data>
+  <data name="HistoryView_UpoHeader" xml:space="preserve">
+    <value>Upo</value>
+  </data>
+  <data name="HistoryView_StatusHeader" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="HistoryView_DescriptionHeader" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="HistoryView_FromDateFilter" xml:space="preserve">
+    <value>Send date from:</value>
+  </data>
+  <data name="HistoryView_ToDateFilter" xml:space="preserve">
+    <value>to:</value>
+  </data>
+  <data name="EditJPKView_TaxOffice" xml:space="preserve">
+    <value>Tax office</value>
+  </data>
+  <data name="EditJPKView_SystemName" xml:space="preserve">
+    <value>System name</value>
+  </data>
+  <data name="EditJPKView_Year" xml:space="preserve">
+    <value>Year</value>
+  </data>
+  <data name="EditJPKView_Month" xml:space="preserve">
+    <value>Month</value>
+  </data>
+  <data name="EditJPKView_FormVersion" xml:space="preserve">
+    <value>Form version</value>
+  </data>
+  <data name="EditJPKView_CreationDate" xml:space="preserve">
+    <value>JPK Creation date</value>
+  </data>
+  <data name="EditJPKView_SystemCode" xml:space="preserve">
+    <value>System code</value>
+  </data>
+  <data name="EditJPKView_SchemaVersion" xml:space="preserve">
+    <value>Schema version</value>
+  </data>
+  <data name="EditJPKView_ApplicationPurpose" xml:space="preserve">
+    <value>Purpose of the application</value>
+  </data>
+  <data name="EditJPKView_Header" xml:space="preserve">
+    <value>Header</value>
+  </data>
+  <data name="EditJPKView_Declarations" xml:space="preserve">
+    <value>Declarations</value>
+  </data>
+  <data name="EditJPKView_Sale" xml:space="preserve">
+    <value>Sale</value>
+  </data>
+  <data name="EditJPKView_Purchase" xml:space="preserve">
+    <value>Purchase</value>
+  </data>
+  <data name="EditJPKView_Title" xml:space="preserve">
+    <value>Edit JPK file</value>
+  </data>
+  <data name="ConfigurationView_Title" xml:space="preserve">
+    <value>Configuration</value>
+  </data>
+  <data name="ConfigurationView_DataFolderLabel" xml:space="preserve">
+    <value>Data folder:</value>
+  </data>
+  <data name="ConfigurationView_LanguageLabel" xml:space="preserve">
+    <value>Language:</value>
+  </data>
+  <data name="MainView_OpenFileErrorMessage" xml:space="preserve">
+    <value>There was an error opening the file. Error: {0}</value>
+  </data>
+  <data name="MainView_ClearEditSettingsDataMessage" xml:space="preserve">
+    <value>Data on lists in the JPK edition has been removed</value>
+  </data>
+  <data name="SendFile_SendingInProgress" xml:space="preserve">
+    <value>Sending file in progress...</value>
+  </data>
+  <data name="SendFile_SendingCanceledMessage" xml:space="preserve">
+    <value>Sending file canceled.</value>
+  </data>
+  <data name="SendFile_SendingWithoutValidationTitle" xml:space="preserve">
+    <value>Sending without validation</value>
+  </data>
+  <data name="SendFile_SendingWithoutValidationQuestion" xml:space="preserve">
+    <value>Do you want to send the file without validating?</value>
+  </data>
+  <data name="SendFile_SendingTestServerTitle" xml:space="preserve">
+    <value>Sending on test server</value>
+  </data>
+  <data name="SendFile_SendingTestServerMessage" xml:space="preserve">
+    <value>NOTE! &amp;#13; You are sending data to the test server. To continue? </value>
+  </data>
+  <data name="ValidateFile_ValidationWithFileMessage" xml:space="preserve">
+    <value>Validation of the xml file using the {0} file</value>
+  </data>
+  <data name="ValidateFile_ValidationErrorMessage" xml:space="preserve">
+    <value>The validation of the xml file was not possible. Please try again later or send the file without validation</value>
+  </data>
+  <data name="ValidateFile_ValidationWithErrorsMessage" xml:space="preserve">
+    <value>Xml file validation error: {0}</value>
+  </data>
+  <data name="ValidateFile_LoadFileErrorMessage" xml:space="preserve">
+    <value>Error loading xml file: {0}</value>
+  </data>
+  <data name="SendFile_NoLicenseMessage" xml:space="preserve">
+    <value>No license to send documents for NIP: {0}</value>
+  </data>
+  <data name="SendFile_SigningMetadataMessage" xml:space="preserve">
+    <value>The metadata is being signed</value>
+  </data>
+  <data name="SendFile_SignedMetadataMessage" xml:space="preserve">
+    <value>Metadata signed</value>
+  </data>
+  <data name="SendFile_SindingMetadataMessage" xml:space="preserve">
+    <value>Sending metadata ...</value>
+  </data>
+  <data name="SendFile_SindingMetadataResponseMessage" xml:space="preserve">
+    <value>Sending metadata - server response: {0}</value>
+  </data>
+  <data name="SendFile_SintMetadataResponseMessage" xml:space="preserve">
+    <value>Metadata sent. Server response: {0}</value>
+  </data>
+  <data name="SendFile_SendingFileMessage" xml:space="preserve">
+    <value>Sending files to the server</value>
+  </data>
+  <data name="SendFile_SendingSingleFileMessage" xml:space="preserve">
+    <value>Sending file: {0}</value>
+  </data>
+  <data name="SendFile_SentSingleFileMessage" xml:space="preserve">
+    <value>File {0} sent.</value>
+  </data>
+  <data name="SendFile_SendingFilesEndMessage" xml:space="preserve">
+    <value>Files sent to server completed</value>
+  </data>
+  <data name="SendFile_SendingRequestEndMessage" xml:space="preserve">
+    <value>Sending request ended.Session id: {0}</value>
+  </data>
+  <data name="SendFile_SendingRequestEndResponseMessage" xml:space="preserve">
+    <value>Server response: {0}</value>
+  </data>
+  <data name="SendFile_StatusCheckMessage" xml:space="preserve">
+    <value>Status check: {0}</value>
+  </data>
+  <data name="SendFile_SendErrorMessage" xml:space="preserve">
+    <value>An error occurred while sending the file: {0}</value>
+  </data>
+</root>

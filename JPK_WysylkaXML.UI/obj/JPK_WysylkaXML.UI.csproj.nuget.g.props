@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\ggiewon\.nuget\packages\;C:\Program Files (x86)\Syncfusion\Essential Studio\WPF\19.3.0.43\ToolboxNuGetPackages</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">5.11.1</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="C:\Users\ggiewon\.nuget\packages\" />
+    <SourceRoot Include="C:\Program Files (x86)\Syncfusion\Essential Studio\WPF\19.3.0.43\ToolboxNuGetPackages\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Content Include="$(NuGetPackageRoot)xadesnetlib\1.0.0\contentFiles\any\netstandard2.1\Data\xades_zep-epes(PSCA)(Pdf).xml" Condition="Exists('$(NuGetPackageRoot)xadesnetlib\1.0.0\contentFiles\any\netstandard2.1\Data\xades_zep-epes(PSCA)(Pdf).xml')">
+      <NuGetPackageId>XadesNetLib</NuGetPackageId>
+      <NuGetPackageVersion>1.0.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Data\xades_zep-epes(PSCA)(Pdf).xml</Link>
+    </Content>
+  </ItemGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgSyncfusion_Shared_WPF Condition=" '$(PkgSyncfusion_Shared_WPF)' == '' ">C:\Users\ggiewon\.nuget\packages\syncfusion.shared.wpf\19.3.0.48</PkgSyncfusion_Shared_WPF>
+    <PkgSyncfusion_SfGrid_WPF Condition=" '$(PkgSyncfusion_SfGrid_WPF)' == '' ">C:\Users\ggiewon\.nuget\packages\syncfusion.sfgrid.wpf\19.3.0.48</PkgSyncfusion_SfGrid_WPF>
+    <PkgSyncfusion_SfBusyIndicator_WPF Condition=" '$(PkgSyncfusion_SfBusyIndicator_WPF)' == '' ">C:\Users\ggiewon\.nuget\packages\syncfusion.sfbusyindicator.wpf\19.3.0.48</PkgSyncfusion_SfBusyIndicator_WPF>
+    <PkgMicrosoft_Xaml_Behaviors_Wpf Condition=" '$(PkgMicrosoft_Xaml_Behaviors_Wpf)' == '' ">C:\Users\ggiewon\.nuget\packages\microsoft.xaml.behaviors.wpf\1.1.37</PkgMicrosoft_Xaml_Behaviors_Wpf>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,11 @@
+C:\Projects\CSharp\UnitSoftware\_Outputs\JPK\JPK_WysylkaXML\Release\net5.0-windows7.0\JPK_Wysylka.DB.Interfaces.deps.json
+C:\Projects\CSharp\UnitSoftware\_Outputs\JPK\JPK_WysylkaXML\Release\net5.0-windows7.0\JPK_Wysylka.DB.Interfaces.dll
+C:\Projects\CSharp\UnitSoftware\_Outputs\JPK\JPK_WysylkaXML\Release\net5.0-windows7.0\ref\JPK_Wysylka.DB.Interfaces.dll
+C:\Projects\CSharp\UnitSoftware\_Outputs\JPK\JPK_WysylkaXML\Release\net5.0-windows7.0\JPK_Wysylka.DB.Interfaces.pdb
+C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_Wysylka.DB.Interfaces\obj\Release\net5.0-windows7.0\JPK_Wysylka.DB.Interfaces.csproj.AssemblyReference.cache
+C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_Wysylka.DB.Interfaces\obj\Release\net5.0-windows7.0\JPK_Wysylka.DB.Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_Wysylka.DB.Interfaces\obj\Release\net5.0-windows7.0\JPK_Wysylka.DB.Interfaces.csproj.CoreCompileInputs.cache
+C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_Wysylka.DB.Interfaces\obj\Release\net5.0-windows7.0\JPK_Wysylka.DB.Interfaces.dll
+C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_Wysylka.DB.Interfaces\obj\Release\net5.0-windows7.0\ref\JPK_Wysylka.DB.Interfaces.dll
+C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_Wysylka.DB.Interfaces\obj\Release\net5.0-windows7.0\JPK_Wysylka.DB.Interfaces.pdb
+C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_Wysylka.DB.Interfaces\obj\Release\net5.0-windows7.0\JPK_Wysylka.DB.Interfaces.csproj.CopyComplete

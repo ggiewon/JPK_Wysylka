@@ -1,0 +1,54 @@
+using System;
+using System.CodeDom.Compiler;
+using System.ComponentModel;
+using System.Diagnostics;
+using System.Xml.Serialization;
+
+namespace JPK.XmlTypes.New
+{
+    /// <remarks/>
+    [GeneratedCode("xsd", "4.0.30319.33440")]
+    [Serializable]
+    [DebuggerStepThrough]
+    [DesignerCategory("code")]
+    [XmlType(Namespace = "http://e-dokumenty.mf.gov.pl")]
+    public class HashValueMD5Type
+    {
+
+        private string algorithmField;
+
+        private string encodingField;
+
+        private string valueField;
+
+        public HashValueMD5Type()
+        {
+            algorithmField = "MD5";
+            encodingField = "Base64";
+        }
+
+        /// <remarks/>
+        [XmlAttribute]
+        public string algorithm
+        {
+            get { return algorithmField; }
+            set { algorithmField = value; }
+        }
+
+        /// <remarks/>
+        [XmlAttribute]
+        public string encoding
+        {
+            get { return encodingField; }
+            set { encodingField = value; }
+        }
+
+        /// <remarks/>
+        [XmlText(DataType = "token")]
+        public string Value
+        {
+            get { return valueField; }
+            set { valueField = value; }
+        }
+    }
+}

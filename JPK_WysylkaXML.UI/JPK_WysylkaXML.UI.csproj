@@ -1,0 +1,78 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>AppIcon.ico</ApplicationIcon>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <Deterministic>false</Deterministic>
+    <Platforms>AnyCPU;x64</Platforms>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <OutputPath>C:\Projects\CSharp\UnitSoftware\_Outputs\JPK\JPK_WysylkaXML\</OutputPath>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutputPath>C:\Projects\CSharp\UnitSoftware\_Outputs\JPK\JPK_WysylkaXML\</OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\ggiewon\.nuget\packages\xadesnetlib\1.0.0\contentFiles\any\netstandard2.1\Data\xades_zep-epes%28PSCA%29%28Pdf%29.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="AppIcon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="..\Jpk_wysylkaGlobalAssemblyInfo.cs" Link="Jpk_wysylkaGlobalAssemblyInfo.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoUpdater.NET" Version="1.0.0" />
+    <PackageReference Include="Microsoft.Windows.Compatibility" Version="5.0.2" />
+    <PackageReference Include="Syncfusion.SfBusyIndicator.WPF" Version="19.3.0.48" />
+    <PackageReference Include="Syncfusion.SfGrid.WPF" Version="19.3.0.48" />
+    <PackageReference Include="UnitSoftware.Common.Implementation" Version="1.0.1" />
+    <PackageReference Include="UnitSoftware.Common.Interfaces" Version="1.0.0" />
+    <PackageReference Include="UnitSoftware.Common.Wpf.Implementation" Version="1.0.2" />
+    <PackageReference Include="UnitSoftware.Common.Wpf.Interfaces" Version="1.0.0" />
+    <PackageReference Include="XadesNetLib" Version="1.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\JPK\JPK.csproj" />
+    <ProjectReference Include="..\JPK_Wysylka.DB.Implementation\JPK_Wysylka.DB.Implementation.csproj" />
+    <ProjectReference Include="..\JPK_WysylkaXML.EditXML\JPK_WysylkaXML.EditXML.csproj" />
+    <ProjectReference Include="..\JPK_WysylkaXML.License.Implementation\JPK_WysylkaXML.License.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="AppIcon.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Settings.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="NLog.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+
+</Project>

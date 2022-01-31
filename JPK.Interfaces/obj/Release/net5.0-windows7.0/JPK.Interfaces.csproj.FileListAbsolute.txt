@@ -1,0 +1,15 @@
+C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK.Interfaces\bin\Release\net5.0-windows7.0\JPK.Interfaces.deps.json
+C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK.Interfaces\bin\Release\net5.0-windows7.0\JPK.Interfaces.dll
+C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK.Interfaces\bin\Release\net5.0-windows7.0\ref\JPK.Interfaces.dll
+C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK.Interfaces\bin\Release\net5.0-windows7.0\JPK.Interfaces.pdb
+C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK.Interfaces\bin\Release\net5.0-windows7.0\JPK.XmlTypes.dll
+C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK.Interfaces\bin\Release\net5.0-windows7.0\JPK.XmlTypes.pdb
+C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK.Interfaces\obj\Release\net5.0-windows7.0\JPK.Interfaces.csproj.AssemblyReference.cache
+C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK.Interfaces\obj\Release\net5.0-windows7.0\JPK.Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK.Interfaces\obj\Release\net5.0-windows7.0\JPK.Interfaces.csproj.CoreCompileInputs.cache
+C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK.Interfaces\obj\Release\net5.0-windows7.0\JPK.Interfaces.dll
+C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK.Interfaces\obj\Release\net5.0-windows7.0\ref\JPK.Interfaces.dll
+C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK.Interfaces\obj\Release\net5.0-windows7.0\JPK.Interfaces.pdb
+C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK.Interfaces\bin\Release\net5.0-windows7.0\JPK_WysylkaXML.License.dll
+C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK.Interfaces\bin\Release\net5.0-windows7.0\JPK_WysylkaXML.License.pdb
+C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK.Interfaces\obj\Release\net5.0-windows7.0\JPK.Interfaces.csproj.CopyComplete

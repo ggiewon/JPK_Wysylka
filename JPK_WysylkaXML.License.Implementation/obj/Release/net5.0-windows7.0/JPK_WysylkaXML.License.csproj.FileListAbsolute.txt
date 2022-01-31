@@ -1,0 +1,10 @@
+C:\Projects\CSharp\UnitSoftware\_Outputs\JPK\JPK_WysylkaXML\Release\net5.0-windows7.0\JPK_WysylkaXML.License.deps.json
+C:\Projects\CSharp\UnitSoftware\_Outputs\JPK\JPK_WysylkaXML\Release\net5.0-windows7.0\JPK_WysylkaXML.License.dll
+C:\Projects\CSharp\UnitSoftware\_Outputs\JPK\JPK_WysylkaXML\Release\net5.0-windows7.0\ref\JPK_WysylkaXML.License.dll
+C:\Projects\CSharp\UnitSoftware\_Outputs\JPK\JPK_WysylkaXML\Release\net5.0-windows7.0\JPK_WysylkaXML.License.pdb
+C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.License.Implementation\obj\Release\net5.0-windows7.0\JPK_WysylkaXML.License.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.License.Implementation\obj\Release\net5.0-windows7.0\JPK_WysylkaXML.License.csproj.CoreCompileInputs.cache
+C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.License.Implementation\obj\Release\net5.0-windows7.0\JPK_WysylkaXML.License.dll
+C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.License.Implementation\obj\Release\net5.0-windows7.0\ref\JPK_WysylkaXML.License.dll
+C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.License.Implementation\obj\Release\net5.0-windows7.0\JPK_WysylkaXML.License.pdb
+C:\Projects\CSharp\UnitSoftware\JPK_WysylkaXML\JPK_WysylkaXML.License.Implementation\obj\Release\net5.0-windows7.0\JPK_WysylkaXML.License.csproj.AssemblyReference.cache
